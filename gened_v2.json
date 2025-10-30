@@ -1,0 +1,1667 @@
+{
+    "gened": {
+        "Required Core": [
+            {
+                "Course": "ENG 1101",
+                "Title": "English Composition I",
+                "Area(s)": "EC",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 1121",
+                "Title": "English Composition II",
+                "Area(s)": "EC",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "MAT 1180",
+                "Title": "Mathematical Concepts and Applications",
+                "Area(s)": "MQR",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1190",
+                "Title": "Quantitative Reasoning",
+                "Area(s)": "MQR",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1272",
+                "Title": "Statistics",
+                "Area(s)": "MQR",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1275",
+                "Title": "College Algebra and Trigonometry",
+                "Area(s)": "MQR",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1375",
+                "Title": "Precalculus",
+                "Area(s)": "MQR",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1475",
+                "Title": "Calculus I",
+                "Area(s)": "MQR",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1575",
+                "Title": "Calculus II",
+                "Area(s)": "MQR",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "BIO 1100",
+                "Title": "Human Biology",
+                "Area(s)": "LPS",
+                "Credits": 3,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 1101",
+                "Title": "Biology I",
+                "Area(s)": "LPS",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 2311",
+                "Title": "Human Anatomy and Physiology I",
+                "Area(s)": "LPS",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "CHEM 1000",
+                "Title": "Principles of Chemistry",
+                "Area(s)": "LPS",
+                "Credits": 4,
+                "Dept_Id": 23
+            },
+            {
+                "Course": "CHEM 1110",
+                "Title": "General Chemistry I",
+                "Area(s)": "LPS",
+                "Credits": 4,
+                "Dept_Id": 23
+            },
+            {
+                "Course": "ESCI 1110",
+                "Title": "Environmental Science I",
+                "Area(s)": "LPS",
+                "Credits": 3,
+                "Dept_Id": 23
+            },
+            {
+                "Course": "PHYS 1000",
+                "Title": "The Physical Universe",
+                "Area(s)": "LPS",
+                "Credits": 3,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1111",
+                "Title": "Principles of Science I",
+                "Area(s)": "LPS",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1117",
+                "Title": "Astronomy I",
+                "Area(s)": "LPS",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1433",
+                "Title": "General Physics I: Algebra Based",
+                "Area(s)": "LPS",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1441",
+                "Title": "General Physics&nbsp;I: Calculus Based",
+                "Area(s)": "LPS",
+                "Credits": 5,
+                "Dept_Id": 76
+            }
+        ],
+        "Flexible Core": [
+            {
+                "Course": "AFR 1130",
+                "Title": "Africana Folklore",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1401",
+                "Title": "African Governments",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1460",
+                "Title": "Early African History",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1461",
+                "Title": "Modern African History",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1462",
+                "Title": "Blacks in Science, Technology and Business",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1467",
+                "Title": "Afro-Caribbean History",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2212",
+                "Title": "Modern African Literature",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2222",
+                "Title": "Current Caribbean Literature",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2402ID",
+                "Title": "The Heritage of Imperialism",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2612",
+                "Title": "Africana Philosophy and Religion",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "ANTH 1101",
+                "Title": "Introductory Anthropology",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ANTH 1102",
+                "Title": "Magic, Witchcraft, and Religion",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ANTH 1103",
+                "Title": "Gender, Culture and Society",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ANTH 1104",
+                "Title": "Medical Anthropology",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ARB 1101",
+                "Title": "Elementary Arabic I",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARB 1102",
+                "Title": "Elementary Arabic II",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARB 2201",
+                "Title": "Intermediate Arabic I (fall only)",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1101",
+                "Title": "History of Art: Prehistoric to Gothic",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1102",
+                "Title": "History of Western Art: Renaissance to Modern ",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1103",
+                "Title": "Introduction to the History of Art ",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1106",
+                "Title": "Modern Art",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1108",
+                "Title": "Art of Asia",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1110",
+                "Title": "Islamic Art and Architecture",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 3401",
+                "Title": "Italian RenaissanceArt and Architecture ",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "BUF 2204",
+                "Title": "Global History of Dress and Textiles",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 19
+            },
+            {
+                "Course": "CHN 1101",
+                "Title": "Elementary Chinese I",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "CHN 1102",
+                "Title": "Elementary Chinese II",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "CHN 2201",
+                "Title": "Intermediate Chinese",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 2401",
+                "Title": "International Communication",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ECON 2505",
+                "Title": "Environmental Economics",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ECON 2505ID",
+                "Title": "Environmental Economics",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ENG 2100",
+                "Title": "English Literature I (fall only)",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2101",
+                "Title": "English Literature II (spring only)",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2160",
+                "Title": "Introduction to Women's Studies",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2300",
+                "Title": "Great Works of Literature I (fall only)",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2301",
+                "Title": "Great Works of Literature II (spring only)",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "FREN 1101",
+                "Title": "Elementary French I",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "FREN 1102",
+                "Title": "Elementary French II",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "FREN 2201",
+                "Title": "Intermediate French I",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "HIS 1101",
+                "Title": "The Origins of Western Civilization",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 1102",
+                "Title": "Foundations of the Modern World, 1400-1900",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 1103",
+                "Title": "The Modern World Since 1900",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 1501",
+                "Title": "The Origins of Islamic Civilization",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 1503",
+                "Title": "The Modern Middle East and North Africa",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 2000",
+                "Title": "Modern World History",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 3402",
+                "Title": "Topics in Modern World History, 1945-Present",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 3402ID",
+                "Title": "Topics in Modern World History, 1945-Present",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "LNG 1100",
+                "Title": "Language, Culture and Society",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "MUS 1212",
+                "Title": "Introduction to World Music",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "PHIL 2114",
+                "Title": "Business Ethics in a Global Context",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2121",
+                "Title": "Chinese Philosophy",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 3301",
+                "Title": "The Emerging Global Society",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SPA 1101",
+                "Title": "Elementary Spanish I",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "SPA 1102",
+                "Title": "Elementary Spanish II",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "SPA 2201",
+                "Title": "Intermediate Spanish I",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "SPA 2202",
+                "Title": "Intermediate Spanish II",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "SPA 2401",
+                "Title": "Spanish for Heritage Speakers",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "SPA 2402",
+                "Title": "Spanish Oral and Written Academic Communication for Heritage Speakers ",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "SPA 3301",
+                "Title": "Survey of Early Spanish Literature (spring only)",
+                "Area(s)": "WCGI",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "AFR 1465",
+                "Title": "Early African American History",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1466",
+                "Title": "Modern African-American History",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1501",
+                "Title": "Seminar in Current Community Problems",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1502",
+                "Title": "The Sociology of Urban Poverty",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2201",
+                "Title": "Early Black Writers in American Literature",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2202",
+                "Title": "Contemporary Black Writers in American Literature",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 3000ID",
+                "Title": "Black New York - Interdisciplinary",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "ARCH 3522",
+                "Title": "A History of New York City Architecture",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 9
+            },
+            {
+                "Course": "ARTH 1104",
+                "Title": "Art of the United States",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 2406",
+                "Title": "Gender and Health Communication (Writing Intensive)",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ECON 1101",
+                "Title": "Macroeconomics",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ECON 2403",
+                "Title": "Labor Management Relations",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ENG 2180",
+                "Title": "Studies in Identity and Orientation",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2190",
+                "Title": "Expressions of Identity: Representations of Gender and Space in Literature",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2200",
+                "Title": "American Literature I (fall only)",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2201",
+                "Title": "American Literature II (spring only)",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2250",
+                "Title": "Asian American Literature and Culture",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "GOV 1101",
+                "Title": "American Government",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "GOV 1102",
+                "Title": "State and Local Government ",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "GOV 2401",
+                "Title": "US Constitutional Law",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 1110",
+                "Title": "US History to 1865",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 1111",
+                "Title": "US History Since 1865",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 2405",
+                "Title": "History of Foodways in America",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 3208",
+                "Title": "US Immigration History",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 3208ID",
+                "Title": "US Immigration History",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 3209",
+                "Title": "History of Technology",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 3209ID",
+                "Title": "History of Technology ",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "HIS 3310",
+                "Title": "Environmental History of North America",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "LATS 2501",
+                "Title": "Latin Americans in the U.S.",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "SOC 1104",
+                "Title": "Race and Ethnic Relations",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "THE 2480",
+                "Title": "American Musical Theatre",
+                "Area(s)": "USED",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "AFR 1301",
+                "Title": "Introduction to the Art of Africa",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1304",
+                "Title": "African American Art",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1311",
+                "Title": "African-American/Caribbean Music",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1321",
+                "Title": "Black Theater",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 1503",
+                "Title": "Hip-Hop Worldview",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2302",
+                "Title": "Art and Architecture of Africa",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "ARCH 2321",
+                "Title": "History of Architecture: 1900 to the Present",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 9
+            },
+            {
+                "Course": "ARTH 1100",
+                "Title": "History and Appreciation of Photography",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1112",
+                "Title": "Introduction to Film",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 1204",
+                "Title": "20th Century Dress and Culture",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ARTH 3311",
+                "Title": "The History of Graphic Design",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 1340",
+                "Title": "Oral Interpretation of Literature",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 3502",
+                "Title": "Communicating Healthcare Narratives (Writing Intensive)",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ENG 1141",
+                "Title": "Creative Writing",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 1142",
+                "Title": "Introduction to Poetry Writing ",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2001",
+                "Title": "Introduction to Literature I Fiction",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2002",
+                "Title": "Introduction to Literature II Drama",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2003",
+                "Title": "Introduction to Literature III Poetry",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2150",
+                "Title": "Introduction to Women Writers",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2170",
+                "Title": "Introduction to Studies in Maleness and Manhood",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2170ID",
+                "Title": "Introduction to Studies in Maleness and Manhood",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2400",
+                "Title": "Films from Literature",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 3402",
+                "Title": "Topics in Literature",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 3403",
+                "Title": "One Major Writer",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 3407",
+                "Title": "Gothic Literature and Visual Culture",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "MUS 1210",
+                "Title": "Musical Styles",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "MUS 1211",
+                "Title": "Music of Latin America",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "MUS 2206",
+                "Title": "Jazz",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "MUS 2207",
+                "Title": "Twentieth Century Music",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "THE 2180",
+                "Title": "Introduction to Theatre",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "THE 2280",
+                "Title": "History of the Theatre: Stages and Technology",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "THE 2280ID",
+                "Title": "History of the Theatre: Stages & Technology - Interdisciplinary",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "THE 2380",
+                "Title": "Storytelling and Script Analysis  ",
+                "Area(s)": "CE",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "AFR 2000",
+                "Title": "Blacks in Media: Race, Gender, & Cultural Representations",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "AFR 2250",
+                "Title": "Black Women in Literature",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 7
+            },
+            {
+                "Course": "ARTH 2101ID",
+                "Title": "Healing the Body: The Visual Culture of Medicine - Interdisciplinary",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 1330",
+                "Title": "Public Speaking",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 1332",
+                "Title": "Introduction to Human Communication",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 1335",
+                "Title": "Group Communication",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 2402",
+                "Title": "Intercultural Communication",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 2403",
+                "Title": "Health Communication",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 2404",
+                "Title": "Interpersonal Communication (Writing Intensive)",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 2405",
+                "Title": "Principles of Persuasion",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "COM 3401",
+                "Title": "Business and Professional Communication",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 60
+            },
+            {
+                "Course": "ECON 1401",
+                "Title": "Microeconomics",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ECON 2301",
+                "Title": "Money and Banking",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "ENG 1151",
+                "Title": "Introduction to Journalism",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 1161",
+                "Title": "Language and Thinking",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 1161ID",
+                "Title": "Language and Thinking",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 1773ID",
+                "Title": "Weird Science: Interpreting and Redefining Humanity",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2000",
+                "Title": "Perspectives in Literature",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 2420",
+                "Title": "Science Fiction",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 3401",
+                "Title": "Law Through Literature",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "ENG 3404",
+                "Title": "The Literature of Illness and Care",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 45
+            },
+            {
+                "Course": "LIB 1201",
+                "Title": "Research and Documentation in the Information Age",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 69
+            },
+            {
+                "Course": "PHIL 2101",
+                "Title": "Introduction to Philosophy",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2102",
+                "Title": "Logical Thinking",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2103",
+                "Title": "Ethics",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2104",
+                "Title": "Ancient Philosophy",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2106",
+                "Title": "Philosophy of Technology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2107",
+                "Title": "Philosophy and Women",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2203",
+                "Title": "Health Care Ethics",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 2203ID",
+                "Title": "Health Care Ethics",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 3208",
+                "Title": "Political Philosophy",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 3211",
+                "Title": "Philosophy of Law",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 3212",
+                "Title": "Engineering Ethics",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHIL 3400",
+                "Title": "Environmental Philosophy",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 1101",
+                "Title": "Introduction to Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2300",
+                "Title": "Lifespan Development",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2301",
+                "Title": "Child Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2302",
+                "Title": "Psychology of Adolescence and Adulthood",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2303",
+                "Title": "Psychology of Aging",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2401",
+                "Title": "Social Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2402",
+                "Title": "Psychology of Personality",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2403",
+                "Title": "Abnormal Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2404",
+                "Title": "Personnel and Organizational Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 2404ID",
+                "Title": "Personnel and Organizational Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 3405",
+                "Title": "Health Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PSY 3405ID",
+                "Title": "Health Psychology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 1101",
+                "Title": "Elements of Sociology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 1102",
+                "Title": "Urban Sociology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 1103",
+                "Title": "The Family",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 2201",
+                "Title": "Sociology of Aging",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 2380",
+                "Title": "Sociology of Education",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 2380ID",
+                "Title": "Sociology of Education",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 2401",
+                "Title": "Society, Technology and Self",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 2401ID",
+                "Title": "Society, Technology and Self",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 2403",
+                "Title": "Law and Society",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 3302ID",
+                "Title": "Environmental Sociology",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 3303",
+                "Title": "Sociology of Big Numbers",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "SOC 3402",
+                "Title": "The Sociology of Social Problems",
+                "Area(s)": "IS",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "BIO 1101",
+                "Title": "Biology I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 1201",
+                "Title": "Biology II",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 1201ID",
+                "Title": "Biology II - Interdisciplinary",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 2250",
+                "Title": "Evolution",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 2311",
+                "Title": "Human Anatomy and Physiology I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 2312",
+                "Title": "Human Anatomy and Physiology II",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 3302",
+                "Title": "Microbiology",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "BIO 3350",
+                "Title": "Bioinformatics I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 15
+            },
+            {
+                "Course": "CHEM 1110",
+                "Title": "General Chemistry I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 23
+            },
+            {
+                "Course": "CHEM 1210",
+                "Title": "General Chemistry II",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 23
+            },
+            {
+                "Course": "CST 1000",
+                "Title": "Foundations of Computing",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 31
+            },
+            {
+                "Course": "ESCI 1210",
+                "Title": "Environmental Science II",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 23
+            },
+            {
+                "Course": "GEOG 1101",
+                "Title": "Elements of Physical Geography",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "MAT 1272",
+                "Title": "Statistics",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1372",
+                "Title": "Statistics with Probability",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1375",
+                "Title": "Precalculus",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1475",
+                "Title": "Calculus I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 1575",
+                "Title": "Calculus II",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 2440",
+                "Title": "Discrete Structures and Algorithms I",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 2540",
+                "Title": "Discrete Structures and Algorithms II",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 2572",
+                "Title": "Probability and Mathematical Statistics I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 2580",
+                "Title": "Introduction to Linear Algebra",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "MAT 2680",
+                "Title": "Differential Equations",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 70
+            },
+            {
+                "Course": "PHIL 2202ID",
+                "Title": "Symbolic Logic",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 91
+            },
+            {
+                "Course": "PHYS 1111",
+                "Title": "Principles of Science I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1112",
+                "Title": "Principles of Science II",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1117",
+                "Title": "Astronomy I",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1118",
+                "Title": "Astronomy II: Stars, Galaxies, Cosmology",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1433",
+                "Title": "General Physics I: Algebra Based",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1434",
+                "Title": "General Physics II: Algebra Based",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1441",
+                "Title": "General Physics&nbsp;I: Calculus Based",
+                "Area(s)": "SW",
+                "Credits": 5,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 1442",
+                "Title": "General Physics II: Calculus Based",
+                "Area(s)": "SW",
+                "Credits": 5,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 2443",
+                "Title": "Modern Physics",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 2443ID",
+                "Title": "Modern Physics",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PHYS 2605",
+                "Title": "Introduction to Laser Physics and Photonics",
+                "Area(s)": "SW",
+                "Credits": 4,
+                "Dept_Id": 76
+            },
+            {
+                "Course": "PSY 3407",
+                "Title": "Psychology of Visual Perception",
+                "Area(s)": "SW",
+                "Credits": 3,
+                "Dept_Id": 91
+            }
+        ]
+    }
+}
