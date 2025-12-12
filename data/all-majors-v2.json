@@ -1,0 +1,5194 @@
+    {
+    "Data Science": {
+        "Core" : [
+            {
+                "Course": "CST 1100",
+                "Title": "Introduction to Computer Systems"
+            },
+            {
+                "Course": "CST 1101",
+                "Title": "Problem Solving with Computer Programming"
+            },
+            {
+                "Course": "CST 1201",
+                "Title": "Programming Fundamentals"
+            },
+            {
+                "Course": "CST 1204",
+                "Title": "Database Systems Fundamentals"
+            },
+            {
+                "Course": "CST 2309",
+                "Title": "Web Programming I"
+            },
+            {
+                "Course": "CST 2312",
+                "Title": "Information and Data Management I"
+            },
+            {
+                "Course": "CST 2402",
+                "Title": "Introduction to Data Science"
+            },
+            {
+                "Course": "CST 2412",
+                "Title": "Data Security, Privacy, and Ethics"
+            },
+            {
+                "Course": "CST 3502",
+                "Title": "Data Mining"
+            },
+            {
+                "Course": "CST 3512",
+                "Title": "Information and Data Management II"
+            },
+            {
+                "Course": "CST 3513",
+                "Title": "Object Oriented Programming in Java"
+            },
+            {
+                "Course": "CST 3602",
+                "Title": "Data Visualization"
+            },
+            {
+                "Course": "CST 3650",
+                "Title": "Data Structures"
+            },
+            {
+                "Course": "CST 4702",
+                "Title": "Machine Learning Fundamentals"
+            },
+            {
+                "Course": "CST 4714",
+                "Title": "Database Administration"
+            },
+            {
+                "Course": "CST 3624",
+                "Title": "Introduction to Non-Relational (NoSQL) Technologies"
+            },
+            {
+                "Course": "CST 4802",
+                "Title": "Information Retrieval"
+            },
+            {
+                "Course": "CST 4812",
+                "Title": "Natural Language Processing"
+            },
+            {
+                "Course": "CST 4900",
+                "Title": "Internship in Computer Systems"
+            },
+            {
+                "Course": "MAT 1475",
+                "Title": "Calculus I"
+            },
+            {
+                "Course": "MAT 1575",
+                "Title": "Calculus II"
+            },
+            {
+                "Course": "MAT 2440",
+                "Title": "Data Structures and Algorithms"
+            },
+            {
+                "Course": "MAT 2572",
+                "Title": "Probability and Mathematical Statistics I"
+            },
+            {
+                "Course": "MAT 2580",
+                "Title": "Introduction to Linear Algebra"
+            }
+        ],
+        "Electives" : [
+            
+            {
+                "Course": "BIO 3450",
+                "Title": "Biomedical Data Analytics I"
+            },
+            {
+                "Course": "BIO 4450",
+                "Title": "Biomedical Data Analytics II"
+            },
+            {
+                "Course": "BUS 2339",
+                "Title": "Financial Management"
+            },
+            {
+                "Course": "BUS 2341",
+                "Title": "Financial Forecasting"
+            },
+            {
+                "Course": "CET 4925",
+                "Title": "Internet of Things"
+            },
+            {
+                "Course": "CET 4973",
+                "Title": "Intro Artificial Intelligence"
+            },
+            {
+                "Course": "ECON 1101",
+                "Title": "Macroeconomics"
+            },
+            {
+                "Course": "ECON 2301",
+                "Title": "Money and Banking"
+            },
+            {
+                "Course": "MAT 2675",
+                "Title": "Calculus III"
+            },
+            {
+                "Course": "MAT 3672",
+                "Title": "Probablility & Math Stats II"
+            },
+            {
+                "Course": "MAT 4672",
+                "Title": "Computational Statistics w App"
+            },
+            {
+                "Course": "PHYS 3600ID",
+                "Title": "Machine Learning for Physics"
+            }    
+        ],
+                "FreeElective": false
+    },
+    "Applied Chemistry BS": {
+    "Core": [
+        {
+            "Course": "BIO 1101",
+            "Title": "Biology I"
+        },
+        {
+            "Course": "BIO 3601",
+            "Title": "Biochemistry"
+        },
+        {
+            "Course": "CHEM 1110",
+            "Title": "General Chemistry I"
+        },
+        {
+            "Course": "CHEM 1210",
+            "Title": "General Chemistry II"
+        },
+        {
+            "Course": "CHEM 2223",
+            "Title": "Organic Chemistry I"
+        },
+        {
+            "Course": "CHEM 2323",
+            "Title": "Organic Chemistry II"
+        },
+        {
+            "Course": "CHEM 3222",
+            "Title": "Physical Chemistry: Thermodynamics and Kinetics"
+        },
+        {
+            "Course": "CHEM 3312",
+            "Title": "Analytical Chemistry"
+        },
+        {
+            "Course": "CHEM 3412",
+            "Title": "Instrumental Meth of Analysis"
+        },
+        {
+            "Course": "CHEM 3622",
+            "Title": "Inorganic Chemistry"
+        },
+        {
+            "Course": "CHEM 4312",
+            "Title": "Instrumental Chromatography"
+        },
+        {
+            "Course": "CHEM 4323",
+            "Title": "Advanced Laboratory Applications of Spectroscopy"
+        },
+        {
+            "Course": "CHEM 4901",
+            "Title": "Internship and Research in Applied Chemistry"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        },
+        {
+            "Course": "PHYS 1442",
+            "Title": "General Physics II: Calculus Based"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "BIO 2311",
+            "Title": "Human Anatomy and Physiology I"
+        },
+        {
+            "Course": "BIO 2312",
+            "Title": "Anat & Physio 2"
+        },
+        {
+            "Course": "BIO 3302",
+            "Title": "Microbiology"
+        },
+        {
+            "Course": "BIO 3350",
+            "Title": "Bioinformatics I"
+        },
+        {
+            "Course": "BIO 3352",
+            "Title": "Bioinformatics II"
+        },
+        {
+            "Course": "BIO 3354",
+            "Title": "Computational Genomics"
+        },
+        {
+            "Course": "BIO 3356",
+            "Title": "Molecular Modeling in Biology"
+        },
+        {
+            "Course": "BIO 3524",
+            "Title": "Nutrition"
+        },
+        {
+            "Course": "BIO 3526",
+            "Title": "Pathophysiology"
+        },
+        {
+            "Course": "BIO 3620",
+            "Title": "Molecular & Cell Biology"
+        },
+        {
+            "Course": "BIO 4150",
+            "Title": "Computational Genomics"
+        },
+        {
+            "Course": "BIO 4350",
+            "Title": "Molecular Modeling in Biology"
+        },
+        {
+            "Course": "CHEM 2411",
+            "Title": "Special topics in Chemistry"
+        },
+        {
+            "Course": "CHEM 4822",
+            "Title": "Medicinal Chemistry"
+        },
+        {
+            "Course": "CST 1101",
+            "Title": "Problem Solving Comp. Program"
+        },
+        {
+            "Course": "CST 2403",
+            "Title": "Intro C++ Programming I"
+        },
+        {
+            "Course": "CST 3503",
+            "Title": "C++ Programming Part II"
+        },
+        {
+            "Course": "MAT 2440",
+            "Title": "Data Structures and Algorithms"
+        },
+        {
+            "Course": "MAT 2540",
+            "Title": "Discrete Structure 2"
+        },
+        {
+            "Course": "MAT 2571",
+            "Title": "Introduction to Proofs"
+        },
+        {
+            "Course": "MAT 2572",
+            "Title": "Prob & Statistic 1"
+        },
+        {
+            "Course": "MAT 2580",
+            "Title": "Introduction to Linear Algebra"
+        },
+        {
+            "Course": "MAT 2588",
+            "Title": "The Mathematics of Finance"
+        },
+        {
+            "Course": "MAT 2630",
+            "Title": "Numerical Methods Math Core"
+        },
+        {
+            "Course": "MAT 2675",
+            "Title": "Calculus III"
+        },
+        {
+            "Course": "MAT 2680",
+            "Title": "Differential Equations"
+        },
+        {
+            "Course": "MAT 3021",
+            "Title": "Number Theory"
+        },
+        {
+            "Course": "MAT 3050",
+            "Title": "Geometry"
+        },
+        {
+            "Course": "MAT 3075",
+            "Title": "Intro to Real Analysis"
+        },
+        {
+            "Course": "MAT 3080",
+            "Title": "Modern Algebra"
+        },
+        {
+            "Course": "MAT 3672",
+            "Title": "Probablility & Math Stats II"
+        },
+        {
+            "Course": "MAT 3770",
+            "Title": "Math Modeling I"
+        },
+        {
+            "Course": "MAT 3772",
+            "Title": "Stochastic Models"
+        },
+        {
+            "Course": "MAT 3777",
+            "Title": "Applied Math: Wave Equations"
+        },
+        {
+            "Course": "MAT 3787",
+            "Title": "Applied Math: Finite"
+        },
+        {
+            "Course": "MAT 3788",
+            "Title": "App Of Heat Equation"
+        },
+        {
+            "Course": "MAT 3880",
+            "Title": "Intro to Partial Diff Equation"
+        },
+        {
+            "Course": "MAT 4030",
+            "Title": "History of Mathematics"
+        },
+        {
+            "Course": "MAT 4050",
+            "Title": "Geometry II"
+        },
+        {
+            "Course": "MAT 4672",
+            "Title": "Computational Statistics w App"
+        },
+        {
+            "Course": "MAT 4788",
+            "Title": "Financial Risk Modeling"
+        },
+        {
+            "Course": "MAT 4872",
+            "Title": "Prob & Mathematical Stats III"
+        },
+        {
+            "Course": "MAT 4880",
+            "Title": "Mathematical Modeling II"
+        },
+        {
+            "Course": "PHYS 2601",
+            "Title": "Introduction to Research"
+        },
+        {
+            "Course": "PHYS 2603",
+            "Title": "Physical Princ of Med Imaging"
+        },
+        {
+            "Course": "PHYS 2605",
+            "Title": "Laser And Photonics"
+        },
+        {
+            "Course": "PHYS 2607",
+            "Title": "Intro Quantum Mechanics"
+        },
+        {
+            "Course": "PHYS 2609",
+            "Title": "Intro Quantum Computing"
+        }
+    ],
+            "FreeElective": false
+},"Architecture Technology BTECH": {
+    "Core": [
+        {
+            "Course": "ARCH 1101",
+            "Title": "Introduction to Architecture"
+        },
+        {
+            "Course": "ARCH 1112",
+            "Title": "Architectural Design I: Foundations and Visual Studies"
+        },
+        {
+            "Course": "ARCH 1121",
+            "Title": "History of World Architecture to 1900"
+        },
+        {
+            "Course": "ARCH 1212",
+            "Title": "Architectural Design II: Foundations and Visual Studies"
+        },
+        {
+            "Course": "ARCH 1231",
+            "Title": "Building Technology I"
+        },
+        {
+            "Course": "ARCH 1250",
+            "Title": "Site Planning"
+        },
+        {
+            "Course": "ARCH 2312",
+            "Title": "Architectural Design III"
+        },
+        {
+            "Course": "ARCH 2321",
+            "Title": "History of ARCH: 1900- Present"
+        },
+        {
+            "Course": "ARCH 2331",
+            "Title": "Building Technology II"
+        },
+        {
+            "Course": "ARCH 2381",
+            "Title": "Structures I"
+        },
+        {
+            "Course": "ARCH 2412",
+            "Title": "Architectural Design IV"
+        },
+        {
+            "Course": "ARCH 2431",
+            "Title": "Building Technology III"
+        },
+        {
+            "Course": "ARCH 2481",
+            "Title": "Structures II"
+        },
+        {
+            "Course": "ARCH 3512",
+            "Title": "Architectural Design V"
+        },
+        {
+            "Course": "ARCH 3522",
+            "Title": "A History of New York City Architecture"
+        },
+        {
+            "Course": "ARCH 3531",
+            "Title": "Building Technology IV"
+        },
+        {
+            "Course": "ARCH 3612",
+            "Title": "Architectural Design VI"
+        },
+        {
+            "Course": "ARCH 3670",
+            "Title": "Building Systems"
+        },
+        {
+            "Course": "ARCH 4812",
+            "Title": "Architectural Design VIII: Integrative Studio"
+        },
+        {
+            "Course": "ARCH 4861",
+            "Title": "Professional Practice"
+        },
+        {
+            "Course": "MAT 1275",
+            "Title": "College Algebra and Trigonometry"
+        },
+        {
+            "Course": "MAT 1275CO",
+            "Title": "College Algebra and Trigonometry with Corequisite Support"
+        },
+        {
+            "Course": "PHYS 1433",
+            "Title": "General Physics I: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "ARCH 1101",
+            "Title": "Introduction to Architecture"
+        },
+        {
+            "Course": "ARCH 1112",
+            "Title": "Architectural Design I"
+        },
+        {
+            "Course": "ARCH 1121",
+            "Title": "Hist Of World Arch to 1900"
+        },
+        {
+            "Course": "ARCH 1212",
+            "Title": "Architectural Design II"
+        },
+        {
+            "Course": "ARCH 1231",
+            "Title": "Building Technology I"
+        },
+        {
+            "Course": "ARCH 1250",
+            "Title": "Site Planning"
+        },
+        {
+            "Course": "ARCH 2205ID",
+            "Title": "Learning Places Undrstand City"
+        },
+        {
+            "Course": "ARCH 2210ID",
+            "Title": "Information Design Theories"
+        },
+        {
+            "Course": "ARCH 2312",
+            "Title": "Architectural Design III"
+        },
+        {
+            "Course": "ARCH 2321",
+            "Title": "History of ARCH: 1900- Present"
+        },
+        {
+            "Course": "ARCH 2331",
+            "Title": "Building Technology II"
+        },
+        {
+            "Course": "ARCH 2381",
+            "Title": "Structures I"
+        },
+        {
+            "Course": "ARCH 2412",
+            "Title": "Architectural Design IV"
+        },
+        {
+            "Course": "ARCH 2431",
+            "Title": "Building Technology III"
+        },
+        {
+            "Course": "ARCH 2481",
+            "Title": "Structures ll"
+        },
+        {
+            "Course": "ARCH 3509",
+            "Title": "Media and Representation I"
+        },
+        {
+            "Course": "ARCH 3512",
+            "Title": "Architectural Design V"
+        },
+        {
+            "Course": "ARCH 3522",
+            "Title": "History Of NYC Architecture"
+        },
+        {
+            "Course": "ARCH 3531",
+            "Title": "Building Technology IV"
+        },
+        {
+            "Course": "ARCH 3550",
+            "Title": "Building Performance Workshop"
+        },
+        {
+            "Course": "ARCH 3551",
+            "Title": "Sustainability: History & Prac"
+        },
+        {
+            "Course": "ARCH 3570",
+            "Title": "Lighting & Acoustics in ARCH"
+        },
+        {
+            "Course": "ARCH 3590",
+            "Title": "Paramtrc Comp, Mtrls & Fabric"
+        },
+        {
+            "Course": "ARCH 3609",
+            "Title": "Media and Representation II"
+        },
+        {
+            "Course": "ARCH 3611",
+            "Title": "Theoretical Design"
+        },
+        {
+            "Course": "ARCH 3612",
+            "Title": "Architectural Design VI"
+        },
+        {
+            "Course": "ARCH 3622",
+            "Title": "Japanese Architecture"
+        },
+        {
+            "Course": "ARCH 3630",
+            "Title": "Advanced Detailing Studio"
+        },
+        {
+            "Course": "ARCH 3631",
+            "Title": "Advanced Materials Wkshp"
+        },
+        {
+            "Course": "ARCH 3640",
+            "Title": "Historic Preserv Theory Pract"
+        },
+        {
+            "Course": "ARCH 3662",
+            "Title": "Approval Procedures"
+        },
+        {
+            "Course": "ARCH 3670",
+            "Title": "Building Systems"
+        },
+        {
+            "Course": "ARCH 3690",
+            "Title": "Intermed Comput & Fabrication"
+        },
+        {
+            "Course": "ARCH 3691",
+            "Title": "Adv Design & Build Info Model"
+        },
+        {
+            "Course": "ARCH 3900",
+            "Title": "ARCH Study Abroad"
+        },
+        {
+            "Course": "ARCH 4400",
+            "Title": "Special Topics in Architecture"
+        },
+        {
+            "Course": "ARCH 4709",
+            "Title": "Model/Rendering"
+        },
+        {
+            "Course": "ARCH 4712",
+            "Title": "Architectural Design VII"
+        },
+        {
+            "Course": "ARCH 4722",
+            "Title": "Theory I:Principles & Theories"
+        },
+        {
+            "Course": "ARCH 4740",
+            "Title": "Cons Tech-Exist Bldg"
+        },
+        {
+            "Course": "ARCH 4750",
+            "Title": "Adv Sim for High Perf Build"
+        },
+        {
+            "Course": "ARCH 4780",
+            "Title": "Case Studies Structural Eng."
+        },
+        {
+            "Course": "ARCH 4781",
+            "Title": "Structures III: Structural Sys"
+        },
+        {
+            "Course": "ARCH 4791",
+            "Title": "Adv Build Info Mod & Int Proj"
+        },
+        {
+            "Course": "ARCH 4812",
+            "Title": "Architectural Design VIII"
+        },
+        {
+            "Course": "ARCH 4822",
+            "Title": "Theory II:Architectural Theory"
+        },
+        {
+            "Course": "ARCH 4830",
+            "Title": "Const Tech: Special Topics"
+        },
+        {
+            "Course": "ARCH 4831",
+            "Title": "Design to Build"
+        },
+        {
+            "Course": "ARCH 4861",
+            "Title": "Professional Practice"
+        },
+        {
+            "Course": "ARCH 4890",
+            "Title": "Comp & Fab: Performative ARCH"
+        },
+        {
+            "Course": "ARCH 4900",
+            "Title": "Architectural Internship"
+        },
+        {
+            "Course": "ARCH 5112",
+            "Title": "Architectural Design IX"
+        },
+        {
+            "Course": "ARCH 5212",
+            "Title": "Architectural Design X: Thesis"
+        }
+    ],
+        "FreeElective": false
+},"Architecture BARCH": {
+    "Core": [
+        {
+            "Course": "ARCH 1101",
+            "Title": "Introduction to Architecture"
+        },
+        {
+            "Course": "ARCH 1112",
+            "Title": "Architectural Design I: Foundations and Visual Studies"
+        },
+        {
+            "Course": "ARCH 1121",
+            "Title": "History of World Architecture to 1900"
+        },
+        {
+            "Course": "ARCH 1212",
+            "Title": "Architectural Design II: Foundations and Visual Studies"
+        },
+        {
+            "Course": "ARCH 1231",
+            "Title": "Building Technology I"
+        },
+        {
+            "Course": "ARCH 1250",
+            "Title": "Site Planning"
+        },
+        {
+            "Course": "ARCH 2312",
+            "Title": "Architectural Design III"
+        },
+        {
+            "Course": "ARCH 2321",
+            "Title": "History of ARCH: 1900- Present"
+        },
+        {
+            "Course": "ARCH 2331",
+            "Title": "Building Technology II"
+        },
+        {
+            "Course": "ARCH 2381",
+            "Title": "Structures I"
+        },
+        {
+            "Course": "ARCH 2412",
+            "Title": "Architectural Design IV"
+        },
+        {
+            "Course": "ARCH 2431",
+            "Title": "Building Technology III"
+        },
+        {
+            "Course": "ARCH 2481",
+            "Title": "Structures II"
+        },
+        {
+            "Course": "ARCH 3512",
+            "Title": "Architectural Design V"
+        },
+        {
+            "Course": "ARCH 3522",
+            "Title": "A History of New York City Architecture"
+        },
+        {
+            "Course": "ARCH 3531",
+            "Title": "Building Technology IV"
+        },
+        {
+            "Course": "ARCH 3550",
+            "Title": "Building Performance Workshop"
+        },
+        {
+            "Course": "ARCH 3551",
+            "Title": "Sustainability: History & Practice"
+
+        },
+        {
+            "Course": "ARCH 3612",
+            "Title": "Architectural Design VI"
+        },
+        {
+            "Course": "ARCH 3670",
+            "Title": "Building Systems"
+        },
+        {
+            "Course": "ARCH 4712",
+            "Title": "Architectural Design VII: Urban Design"
+        },
+        {
+            "Course": "ARCH 4722",
+            "Title": "Theory I: Principles and Theories of Architecture"
+        },
+        {
+            "Course": "ARCH 4781",
+            "Title": "Structures III: Structural Systems"
+        },
+        {
+            "Course": "ARCH 4812",
+            "Title": "Architectural Design VIII: Integrative Studio"
+        },
+        {
+            "Course": "ARCH 4822",
+            "Title": "Theory II: Architectural Theory Applied"
+        },
+        {
+            "Course": "ARCH 4861",
+            "Title": "Professional Practice"
+        },
+        {
+            "Course": "ARCH 5112",
+            "Title": "Architectural Design IX: Design Research"
+        },
+        {
+            "Course": "ARCH 5212",
+            "Title": "Architectural Design X: Thesis"
+        },
+        {
+            "Course": "MAT 1275",
+            "Title": "College Algebra and Trigonometry"
+        },
+        {
+            "Course": "MAT 1275CO",
+            "Title": "College Algebra and Trigonometry with Corequisite Support"
+        },
+        {
+            "Course": "PHYS 1433",
+            "Title": "General Physics I: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "ARCH 3509",
+            "Title": "Media and Representation I"
+        },
+        {
+            "Course": "ARCH 3550",
+            "Title": "Building Performance Workshop"
+        },
+        {
+            "Course": "ARCH 3551",
+            "Title": "Sustainability: History & Practice"
+        },
+        {
+            "Course": "ARCH 3570",
+            "Title": "Lighting & Acoustics in ARCH"
+        },
+        {
+            "Course": "ARCH 3590",
+            "Title": "Paramtrc Comp, Mtrls & Fabric"
+        },
+        {
+            "Course": "ARCH 3609",
+            "Title": "Media and Representation II"
+        },
+        {
+            "Course": "ARCH 3631",
+            "Title": "Advanced Materials Wkshp"
+        },
+        {
+            "Course": "ARCH 3640",
+            "Title": "Historic Preserv Theory Pract"
+        },
+        {
+            "Course": "ARCH 3662",
+            "Title": "Approval Procedures"
+        },
+        {
+            "Course": "ARCH 3690",
+            "Title": "Intermed Comput & Fabrication"
+        },
+        {
+            "Course": "ARCH 3691",
+            "Title": "Adv Design & Build Info Model"
+        },
+        {
+            "Course": "ARCH 3900",
+            "Title": "ARCH Study Abroad"
+        },
+        {
+            "Course": "ARCH 4709",
+            "Title": "Model/Rendering"
+        },
+        {
+            "Course": "ARCH 4740",
+            "Title": "Cons Tech-Exist Bldg"
+        },
+        {
+            "Course": "ARCH 4780",
+            "Title": "Case Studies Structural Eng."
+        },
+        {
+            "Course": "ARCH 4791",
+            "Title": "Adv Build Info Mod & Int Proj"
+        },
+        {
+            "Course": "ARCH 4831",
+            "Title": "Design to Build"
+        },
+        {
+            "Course": "ARCH 4890",
+            "Title": "Comp & Fab: Performative ARCH"
+        },
+        {
+            "Course": "ARCH 4900",
+            "Title": "Architectural Internship"
+        }
+    ],
+            "FreeElective": true,
+            "FreeElectiveNote": "This major includes free electives. Students may select additional liberal arts and science courses or additional architecture electives as needed to fulfill credit requirements."
+
+},"Computer Engineering Technology BTECH": {
+    "Core": [
+        {
+            "Course": "CET 1100",
+            "Title": "Introduction to Computer and Software Engineering"
+        },
+        {
+            "Course": "CET 1111",
+            "Title": "Logic and Problem Solving"
+        },
+        {
+            "Course": "CET 1120",
+            "Title": "Technical Graphics"
+        },
+        {
+            "Course": "CET 1150",
+            "Title": "Fundamentals of Electrical Circuits"
+        },
+        {
+            "Course": "CET 1211",
+            "Title": "Introduction to Objected-Oriented Programming in Software Design"
+        },
+        {
+            "Course": "CET 1250",
+            "Title": "Fundamentals of Digital Systems"
+        },
+        {
+            "Course": "CET 2312",
+            "Title": "Reverse Engineering/Product Design"
+        },
+        {
+            "Course": "CET 2350",
+            "Title": "Electronics"
+        },
+        {
+            "Course": "CET 2370",
+            "Title": "Computer Hardware Systems"
+        },
+        {
+            "Course": "CET 2390",
+            "Title": "Operating Systems Laboratory"
+        },
+        {
+            "Course": "CET 2411",
+            "Title": "C/C++ Programming for Embedded Systems"
+        },
+        {
+            "Course": "CST 2403",
+            "Title": "Introductory C++ Programming Language Part I"
+        },
+        {
+            "Course": "CET 2901",
+            "Title": "Internship in CET AAS Program"
+        },
+        {
+            "Course": "CET 2450",
+            "Title": "Introduction to Microcontrollers"
+        },
+        {
+            "Course": "CET 2455",
+            "Title": "Data Communications"
+        },
+        {
+            "Course": "CET 2461",
+            "Title": "Computer Systems: Software Interface"
+        },
+        {
+            "Course": "CET 3510",
+            "Title": "Microcomputer Systems Technology"
+        },
+        {
+            "Course": "CET 3525",
+            "Title": "Electrical Networks"
+        },
+        {
+            "Course": "CET 3615",
+            "Title": "Instrumentation and Data Acquisition"
+        },
+        {
+            "Course": "CET 3625",
+            "Title": "Applied Analysis Laboratory"
+        },
+        {
+            "Course": "CET 3640",
+            "Title": "Software For Computer Control"
+        },
+        {
+            "Course": "CET 4705",
+            "Title": "Component and Subsystem Design"
+        },
+        {
+            "Course": "CET 4711",
+            "Title": "Computer-Controlled Systems Design"
+        },
+        {
+            "Course": "CET 4773",
+            "Title": "Inter-Networking Technology"
+        },
+        {
+            "Course": "CET 4805",
+            "Title": "Digital System Design Using HDL"
+        },
+        {
+            "Course": "CET 4811",
+            "Title": "Capstone Design Project"
+        },
+        {
+            "Course": "CET 4864",
+            "Title": "Principles of Feedback Control Systems"
+        },
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "MAT 2680",
+            "Title": "Differential Equations"
+        },
+        {
+            "Course": "PHYS 1433",
+            "Title": "General Physics I: Algebra Based "
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        },
+        {
+            "Course": "PHYS 1434",
+            "Title": "General Physics II: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1442",
+            "Title": "General Physics II: Calculus Based"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "CET 3572",
+            "Title": "Embedded Sys & App in Robotics"
+        },
+        {
+            "Course": "CET 3672",
+            "Title": "Actuators & Sensors App"
+        },
+        {
+            "Course": "CET 4772",
+            "Title": "Control Systems in Robotics"
+        },
+        {
+            "Course": "CET 4872",
+            "Title": "Robotic Systems Design and App"
+        },
+        {
+            "Course": "CET 4900",
+            "Title": "Internship Computer Eng. Tech."
+        },
+        {
+            "Course": "CET 4910",
+            "Title": "Digital Image Processing"
+        },
+        {
+            "Course": "CET 4915",
+            "Title": "Testing of Embedded Software"
+        },
+        {
+            "Course": "CET 4920",
+            "Title": "Intro to Computer Vision"
+        },
+        {
+            "Course": "CET 4925",
+            "Title": "Internet of Things"
+        },
+        {
+            "Course": "CET 4930",
+            "Title": "Applied Mechanics"
+        },
+        {
+            "Course": "CET 4932",
+            "Title": "Eco Of Engineer Mgt"
+        },
+        {
+            "Course": "CET 4935",
+            "Title": "Wearable Computing"
+        },
+        {
+            "Course": "CET 4942",
+            "Title": "Economics of Engineering & Mgt"
+        },
+        {
+            "Course": "CET 4952",
+            "Title": "Robotics Technology"
+        },
+        {
+            "Course": "CET 4960",
+            "Title": "Applied Digital Technology"
+        },
+        {
+            "Course": "CET 4962",
+            "Title": "Applied Software Technology"
+        },
+        {
+            "Course": "CET 4963",
+            "Title": "Mod Comm Elec"
+        },
+        {
+            "Course": "CET 4964",
+            "Title": "Electro-Optical Tech & Apps"
+        },
+        {
+            "Course": "CET 4971",
+            "Title": "Linear Integrated Circuit Apps"
+        },
+        {
+            "Course": "CET 4972",
+            "Title": "Digital Integrated Circuits"
+        },
+        {
+            "Course": "CET 4973",
+            "Title": "Intro Artificial Intelligence"
+        },
+        {
+            "Course": "CET 4974",
+            "Title": "Intro to Computer Aided Design"
+        },
+        {
+            "Course": "CET 4980",
+            "Title": "Special Projects in Technology"
+        },
+        {
+            "Course": "CET 4981",
+            "Title": "Special Projects in Technology"
+        },
+        {
+            "Course": "CET 4982",
+            "Title": "Special Projects in Technology"
+        },
+        {
+            "Course": "CET 4983",
+            "Title": "Engineering Technology III"
+        },
+        {
+            "Course": "CST 3502",
+            "Title": "Data Mining"
+        },
+        {
+            "Course": "CST 3503",
+            "Title": "C++ Programming Part II"
+        },
+        {
+            "Course": "CST 3504",
+            "Title": "Database Design"
+        },
+        {
+            "Course": "CST 3506",
+            "Title": "Object-Oriented Sys. Analysis"
+        },
+        {
+            "Course": "CST 3507",
+            "Title": "Advanced Single-LAN Concepts"
+        },
+        {
+            "Course": "CST 3508",
+            "Title": "Design Graphic User Interfaces"
+        },
+        {
+            "Course": "CST 3509",
+            "Title": "Web Page Dsgn & Impl"
+        },
+        {
+            "Course": "CST 3510",
+            "Title": "Computer Security"
+        },
+        {
+            "Course": "CST 3512",
+            "Title": "Information and Data Mgmt II"
+        },
+        {
+            "Course": "CST 3513",
+            "Title": "Object Oriented Prog- Java"
+        },
+        {
+            "Course": "CST 3519",
+            "Title": "Advanced Web Client Technology"
+        },
+        {
+            "Course": "CST 3520",
+            "Title": "Computer Forensics"
+        },
+        {
+            "Course": "CST 3523",
+            "Title": "Task Automation System Admin"
+        },
+        {
+            "Course": "CST 3529",
+            "Title": "Applied Methods in Machine"
+        },
+        {
+            "Course": "CST 3559",
+            "Title": "Technical Documentation"
+        },
+        {
+            "Course": "CST 3601",
+            "Title": "Devel. of Advanced Mobile App."
+        },
+        {
+            "Course": "CST 3602",
+            "Title": "Data Visualization"
+        },
+        {
+            "Course": "CST 3603",
+            "Title": "Object-Oriented Programming"
+        },
+        {
+            "Course": "CST 3604",
+            "Title": "Quality Data Implementation"
+        },
+        {
+            "Course": "CST 3605",
+            "Title": "Virtualization"
+        },
+        {
+            "Course": "CST 3606",
+            "Title": "Object Oriented Systems Design"
+        },
+        {
+            "Course": "CST 3607",
+            "Title": "Interconnectivity"
+        },
+        {
+            "Course": "CST 3608",
+            "Title": "Distributed App Processing"
+        },
+        {
+            "Course": "CST 3609",
+            "Title": "Web Programming"
+        },
+        {
+            "Course": "CST 3610",
+            "Title": "Network Security Fundamentals"
+        },
+        {
+            "Course": "CST 3613",
+            "Title": "App. Development with Database"
+        },
+        {
+            "Course": "CST 3615",
+            "Title": "Enterprise Applications"
+        },
+        {
+            "Course": "CST 3616",
+            "Title": "Cryptographic Technologies"
+        },
+        {
+            "Course": "CST 3619",
+            "Title": "Web Services Architecture"
+        },
+        {
+            "Course": "CST 3624",
+            "Title": "Intro to Non-Relational Tech"
+        },
+        {
+            "Course": "CST 3650",
+            "Title": "Data Structures"
+        },
+        {
+            "Course": "CST 4700",
+            "Title": "IT Service Management"
+        },
+        {
+            "Course": "CST 4701",
+            "Title": "Game Programming"
+        },
+        {
+            "Course": "CST 4702",
+            "Title": "Machine Learning Fundamentals"
+        },
+        {
+            "Course": "CST 4703",
+            "Title": "UNIX Networking & the Internet"
+        },
+        {
+            "Course": "CST 4704",
+            "Title": "Bus Intel Data Warehous/Mining"
+        },
+        {
+            "Course": "CST 4706",
+            "Title": "Software Devel. Methodologies"
+        },
+        {
+            "Course": "CST 4707",
+            "Title": "The LAN-Internet Connection"
+        },
+        {
+            "Course": "CST 4708",
+            "Title": "Software Development .NET Fram"
+        },
+        {
+            "Course": "CST 4709",
+            "Title": "Install & Maintain Web Servers"
+        },
+        {
+            "Course": "CST 4710",
+            "Title": "Advanced Security Technologies"
+        },
+        {
+            "Course": "CST 4713",
+            "Title": "Dynamic Web Dev: Servlet/JSP"
+        },
+        {
+            "Course": "CST 4714",
+            "Title": "Database Administration"
+        },
+        {
+            "Course": "CST 4715",
+            "Title": "Cloud Technologies"
+        },
+        {
+            "Course": "CST 4716",
+            "Title": "Cloud Security"
+        },
+        {
+            "Course": "CST 4723",
+            "Title": "Computing and Parallel Program"
+        },
+        {
+            "Course": "CST 4724",
+            "Title": "Data on the Web"
+        },
+        {
+            "Course": "CST 4726",
+            "Title": "Mobile Device Security & Priv"
+        },
+        {
+            "Course": "CST 4800",
+            "Title": "Project Management"
+        },
+        {
+            "Course": "CST 4801",
+            "Title": "Topics In Info Tech"
+        },
+        {
+            "Course": "CST 4802",
+            "Title": "Information Retrieval"
+        },
+        {
+            "Course": "CST 4812",
+            "Title": "Natural Language Processing"
+        },
+        {
+            "Course": "CST 4816",
+            "Title": "Cybersec & Penetration Testing"
+        },
+        {
+            "Course": "CST 4900",
+            "Title": "Internship in Computer Systems"
+        },
+        {
+            "Course": "CST 4905",
+            "Title": "Information Systems Project"
+        },
+        {
+            "Course": "CST 4916",
+            "Title": "Capstone Cybersecurity"
+        },
+        {
+            "Course": "SET 3510",
+            "Title": "Software Requirements Eng"
+        },
+        {
+            "Course": "SET 3530",
+            "Title": "Cloud Computing & Networking"
+        },
+        {
+            "Course": "SET 3610",
+            "Title": "Software Architecture & Design"
+        },
+        {
+            "Course": "SET 3630",
+            "Title": "Cybersecurity Foundations"
+        },
+        {
+            "Course": "SET 4710",
+            "Title": "Software Testing & Quality A"
+        },
+        {
+            "Course": "SET 4810",
+            "Title": "Software Capstone Design"
+        },
+        {
+            "Course": "SET 4900",
+            "Title": "Internship in Software Eng."
+        },
+        {
+            "Course": "SET 4940",
+            "Title": "Embedded Operating Systems"
+        },
+        {
+            "Course": "SET 4955",
+            "Title": "Software Eng. Tech in Robotics"
+        },
+        {
+            "Course": "TCET 3122",
+            "Title": "Switching and Automata Theory"
+        },
+        {
+            "Course": "TCET 3142",
+            "Title": "Computer Systems"
+        },
+        {
+            "Course": "TCET 3220",
+            "Title": "Sat Trans Theory/Lab"
+        },
+        {
+            "Course": "TCET 3222",
+            "Title": "Sat Trans Theory/Lab"
+        },
+        {
+            "Course": "TCET 3242",
+            "Title": "Adv Comm Networks"
+        },
+        {
+            "Course": "TCET 4102",
+            "Title": "Fiber-Optic Communications"
+        },
+        {
+            "Course": "TCET 4132",
+            "Title": "Wireless Communications"
+        },
+        {
+            "Course": "TCET 4140",
+            "Title": "Telecomm Ntwrk Mgmt"
+        }
+    ],
+            "FreeElective": false
+},"Health Communication": {
+    "Core": [
+        {
+            "Course": "BIO 1101",
+            "Title": "Biology I"
+        },
+        {
+            "Course": "BIO 2311",
+            "Title": "Human Anatomy and Physiology I"
+        },
+        {
+            "Course": "COM 1332",
+            "Title": "Introduction to Human Communication"
+        },
+        {
+            "Course": "1403",
+            "Title": "Introduction to Communication in Healthcare Professions"
+        },
+        {
+            "Course": "COM 1400",
+            "Title": "Introduction to Media Studies"
+        },
+        {
+            "Course": "COM 2403",
+            "Title": "Health Communication"
+        },
+        {
+            "Course": "COM 2403ID",
+            "Title": "Health Communication - Interdisciplinary"
+        },
+        {
+            "Course": "COM 2404",
+            "Title": "Interpersonal Communication"
+        },
+        {
+            "Course": "COM 2405",
+            "Title": "Principles of Persuasion"
+        },
+        {
+            "Course": "COM 3401",
+            "Title": "Business & Professional Communication"
+        },
+        {
+            "Course": "COM 4000",
+            "Title": "Health Communication Research Methods and Design"
+        },
+        {
+            "Course": "COM 4100",
+            "Title": "Senior Seminar"
+        },
+        {
+            "Course": "COM 4200",
+            "Title": "Health Communication Internship"
+        },
+        {
+            "Course": "LIB 1201",
+            "Title": "Research and Documentation in the Information Age"
+        },
+        {
+            "Course": "PHIL 2203",
+            "Title": "Health Care Ethics"
+        },
+        {
+            "Course": "PHIL 2203ID",
+            "Title": "Health Care Ethics - Interdisciplinary"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "COM 2406",
+            "Title": "Gender and Health Comm"
+        },
+        {
+            "Course": "COM 3402",
+            "Title": "Comm in Multicultural Health"
+        },
+        {
+            "Course": "COM 3403",
+            "Title": "Health Communication and Edu"
+        },
+        {
+            "Course": "COM 3404",
+            "Title": "Crisis and Emergency Risk Comm"
+        },
+        {
+            "Course": "COM 3405",
+            "Title": "Public Health Campaigns"
+        },
+        {
+            "Course": "COM 3500",
+            "Title": "U.S. Health Policy and Comm"
+        },
+        {
+            "Course": "COM 3501",
+            "Title": "Introduction to Healthcare Int"
+        },
+        {
+            "Course": "COM 3502",
+            "Title": "Communicating Healthcare"
+        },
+        {
+            "Course": "COM 3503",
+            "Title": "Health, Media and Comm Tech"
+        },
+        {
+            "Course": "PSY 3405",
+            "Title": "Health Psychology"
+        },
+        {
+            "Course": "PSY 3405ID",
+            "Title": "Health Psychology"
+        }
+    ],
+            "FreeElective": true,
+            "FreeElectiveNote": "This major allows students to choose elective credits to reach the total degree requirement."
+
+},"Technology Teacher Education": {
+    "Core": [
+        {
+            "Course": "EDU 1400",
+            "Title": "Design and Drafting I"
+        },
+        {
+            "Course": "EDU 1420",
+            "Title": "Construction Systems"
+        },
+        {
+            "Course": "EDU 2362",
+            "Title": "Methods of Teaching in Career and Technology Education I"
+        },
+        {
+            "Course": "EDU 2400",
+            "Title": "Design and Drafting II"
+        },
+        {
+            "Course": "EDU 2410",
+            "Title": "Survey of Technological Development"
+        },
+        {
+            "Course": "EDU 2440",
+            "Title": "Manufacturing Systems"
+        },
+        {
+            "Course": "EDU 2460",
+            "Title": "Communications Systems"
+        },
+        {
+            "Course": "EDU 2455",
+            "Title": "Methods and Materials for Special Needs Students"
+        },
+        {
+            "Course": "EDU 3400",
+            "Title": "Technological Systems"
+        },
+        {
+            "Course": "EDU 3410",
+            "Title": "Technology Education Foundations and Curriculum Development"
+        },
+        {
+            "Course": "EDU 3420",
+            "Title": "Electronic Systems"
+        },
+        {
+            "Course": "EDU 3440",
+            "Title": "Transportation Systems"
+        },
+        {
+            "Course": "EDU 3630",
+            "Title": "Assessing Student Learning Outcomes"
+        },
+        {
+            "Course": "EDU 3640",
+            "Title": "Computers in Education"
+        },
+        {
+            "Course": "EDU 3670",
+            "Title": "Methods of Literacy Instruction in Teacher Education"
+        },
+        {
+            "Course": "EDU 3682",
+            "Title": "Internship in Career & Technology Education"
+        },
+        {
+            "Course": "EDU 4480",
+            "Title": "Principles of Engineering"
+        },
+        {
+            "Course": "EDU 4440",
+            "Title": "Electronics and Robotics"
+        },
+        {
+            "Course": "CST 2403",
+            "Title": "Introductory C++ Programming Language Part I"
+        },
+        {
+            "Course": "EDU 4602",
+            "Title": "Professional Development Seminar"
+        },
+        {
+            "Course": "EDU 4872",
+            "Title": "Supervised Student Teaching in Career and Technical Education"
+        },
+        {
+            "Course": "LIB 1201",
+            "Title": "Research and Documentation in the Information Age"
+        },
+        {
+            "Course": "MAT 1275/1275CO",
+            "Title": "College Algebra and Trigonometry OR with Corequisite Support"
+        },
+        {
+            "Course": "1275CO",
+            "Title": "College Algebra and Trigonometry with Corequisite Support"
+        },
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "PHYS 1111",
+            "Title": "Principles of Science I"
+        },
+        {
+            "Course": "PHYS 1433",
+            "Title": "General Physics I: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        },
+        {
+            "Course": "PHYS 1112",
+            "Title": "Principles of Science II"
+        },
+        {
+            "Course": "PHYS 1434",
+            "Title": "General Physics II: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1442",
+            "Title": "General Physics II: Calculus Based"
+        },
+        {
+            "Course": "PSY 2501",
+            "Title": "Child and Adolescent Development"
+        },
+        {
+            "Course": "EDU 2610",
+            "Title": "Child and Adolescent Development"
+        },
+        {
+            "Course": "PSY 3502",
+            "Title": "Human Learning & Instruction"
+        },
+        {
+            "Course": "EDU 3610",
+            "Title": "Human Learning & Instruction"
+        },
+        {
+            "Course": "SOC 1101",
+            "Title": "Elements of Sociology"
+        },
+        {
+            "Course": "SOC 2380ID",
+            "Title": "Sociology of Education"
+        }
+    ],
+    "Electives": [],
+            "FreeElective": false
+},"Nursing BS": {
+    "Core": [
+        {
+            "Course": "NUR 1010",
+            "Title": "Medication Calculations in Nursing"
+        },
+        {
+            "Course": "NUR 1030",
+            "Title": "Foundations of Caring"
+        },
+        {
+            "Course": "NUR 1110",
+            "Title": "Caring for Clients with Common Alterations in Functional Needs"
+        },
+        {
+            "Course": "NUR 1130",
+            "Title": "Caring for Clients with Common Alterations in Survival Needs"
+        },
+        {
+            "Course": "NUR 2110",
+            "Title": "Caring for Clients with Complex Alterations in Survival and Functional Needs"
+        },
+        {
+            "Course": "NUR 2130",
+            "Title": "Caring for Clients with Alterations in Integrative Needs"
+        },
+        {
+            "Course": "NUR 2210",
+            "Title": "Caring for Clients with Chronic Alterations in Human Needs"
+        },
+        {
+            "Course": "NUR 2230",
+            "Title": "Caring for Clients and Families with Growth Seeking Needs"
+        },
+        {
+            "Course": "BIO 3302",
+            "Title": "Microbiology"
+        },
+        {
+            "Course": "SOC 1101",
+            "Title": "Elements of Sociology"
+        },
+        {
+            "Course": "BIO 3524",
+            "Title": "Nutrition"
+        },
+        {
+            "Course": "BIO 3526",
+            "Title": "Pathophysiology"
+        },
+        {
+            "Course": "MAT 1272",
+            "Title": "Statistics"
+        },
+        {
+            "Course": "PSY 2404",
+            "Title": "Personnel and Organizational Psychology"
+        },
+        {
+            "Course": "NUR 3010",
+            "Title": "Physical Assessment"
+        },
+        {
+            "Course": "NUR 3110",
+            "Title": "Mgt Of Patient Care"
+        },
+        {
+            "Course": "NUR 3130",
+            "Title": "Nursing Research"
+        },
+        {
+            "Course": "NUR 4010",
+            "Title": "Community Health"
+        },
+        {
+            "Course": "NUR 4030",
+            "Title": "Case Management Role Process"
+        },
+        {
+            "Course": "NUR 4110",
+            "Title": "Client Care:Urban Is"
+        },
+        {
+            "Course": "NUR 4130",
+            "Title": "Pro Nursing Practice"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "NUR 4020",
+            "Title": "Women's Health & Wellness"
+        },
+        {
+            "Course": "NUR 4040",
+            "Title": "HIV/AIDS Advocacy & Care"
+        },
+        {
+            "Course": "NUR 4050",
+            "Title": "End-Of-Life-Care"
+        },
+        {
+            "Course": "NUR 4070",
+            "Title": "Nursing Informatics"
+        },
+        {
+            "Course": "NUR 4080",
+            "Title": "Comm & Behavior in Nursing"
+        },
+        {
+            "Course": "NUR 4090",
+            "Title": "Geriatric Nursing"
+        }
+    ],
+            "FreeElective": false
+
+},"Cybersecurity": {
+    "Core": [
+        {
+            "Course": "CST 1100",
+            "Title": "Introduction to Computer Systems"
+        },
+        {
+            "Course": "CST 1101",
+            "Title": "Problem Solving with Computer Programmming"
+        },
+        {
+            "Course": "CST 1201",
+            "Title": "Programming Fundamentals"
+        },
+        {
+            "Course": "CST 1215",
+            "Title": "Operating Systems Fundamentals"
+        },
+        {
+            "Course": "CST 2307",
+            "Title": "Networking Fundamentals"
+        },
+        {
+            "Course": "CST 2405",
+            "Title": "System Administration (Windows)"
+        },
+        {
+            "Course": "CST 2410",
+            "Title": "Introduction to Computer Security"
+        },
+        {
+            "Course": "CST 2415",
+            "Title": "System Administration (UNIX/Linux)"
+        },
+        {
+            "Course": "CST 3507",
+            "Title": "Advanced Single-LAN Concepts"
+        },
+        {
+            "Course": "CST 3520",
+            "Title": "Computer Forensics"
+        },
+        {
+            "Course": "CST 3523",
+            "Title": "Task Automation in System Administration"
+        },
+        {
+            "Course": "CST 3610",
+            "Title": "Network Security Fundamentals"
+        },
+        {
+            "Course": "CST 3616",
+            "Title": "Cryptographic Technologies"
+        },
+        {
+            "Course": "CST 4710",
+            "Title": "Advanced Security Technologies"
+        },
+        {
+            "Course": "CST 4716",
+            "Title": "Cloud Security"
+        },
+        {
+            "Course": "CST 4726",
+            "Title": "Mobile Device Security and Privacy"
+        },
+        {
+            "Course": "CST 4816",
+            "Title": "Cybersecurity and Penetration Testing"
+        },
+        {
+            "Course": "CST 4916",
+            "Title": "Capstone Cybersecurity Course"
+        },
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "MAT 2440",
+            "Title": "Data Structures and Algorithms"
+        },
+        {
+            "Course": "MAT 2572",
+            "Title": "Probability and Mathematical Statistics I"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "CST 3513",
+            "Title": "Object Oriented Programming in Java"
+        },
+        {
+            "Course": "CST 3605",
+            "Title": "Virtualization"
+        },
+        {
+            "Course": "CST 3607",
+            "Title": "Interconnectivity"
+        },
+        {
+            "Course": "CST 3650",
+            "Title": "Data Structures"
+        },
+        {
+            "Course": "CST 4715",
+            "Title": "Cloud Technologies"
+        },
+        {
+            "Course": "CST 4900",
+            "Title": "Internship in Computer Systems"
+        },
+        {
+            "Course": "CET 4925",
+            "Title": "Internet of Things"
+        },
+        {
+            "Course": "CET 4973",
+            "Title": "Introduction to Artificial Intelligence"
+        },
+        {
+            "Course": "MAT 2540",
+            "Title": "Discrete Structure 2"
+        },
+        {
+            "Course": "MAT 2580",
+            "Title": "Introduction to Linear Algebra"
+        },
+        {
+            "Course": "MAT 2675",
+            "Title": "Calculus III"
+        },
+        {
+            "Course": "MAT 3672",
+            "Title": "Probablility & Math Stats II"
+        },
+        {
+            "Course": "MAT 4872",
+            "Title": "Probability and Mathematical Statistics III"
+        }
+    ],
+            "FreeElective": false
+},"Applied Computational Physics BS": {
+    "Core": [
+        {   
+            "Course": "CST 1101", 
+            "Title": "Problem Solving with Computer Programming" 
+        },
+        {   
+            "Course": "CST 1201", 
+            "Title": "Programming Fundamentals" 
+        },
+        {   
+            "Course": "PHYS 1441", 
+            "Title": "General Physics I: Calculus Based" 
+        },
+        {   
+            "Course": "PHYS 1442", 
+            "Title": "General Physics II: Calculus Based" 
+        },
+        {   
+            "Course": "PHYS 2443ID", 
+            "Title": "Modern Physics"
+        },
+        {   
+            "Course": "PHYS 2601", 
+            "Title": "Introduction to Research" 
+        },
+        {   
+            "Course": "PHYS 2607", 
+            "Title": "Introduction to Quantum Mechanics" 
+        },
+        {   
+            "Course": "PHYS 3100", 
+            "Title": "Classical Mechanics" 
+        },
+        {   
+            "Course": "PHYS 3200", 
+            "Title": "Electricity and Magnetism" 
+        },
+        {   
+            "Course": "PHYS 4100", 
+            "Title": "Computational Methods" 
+        },
+        {   
+            "Course": "PHYS 4150", 
+            "Title": "Computational Methods Laboratory" 
+        },
+        {   
+            "Course": "PHYS 4200", 
+            "Title": "Physics Internship / Real Research Experience" 
+        },
+        {   
+            "Course": "MAT 1475", 
+            "Title": "Calculus I" 
+        },
+        {   
+            "Course": "MAT 1575", 
+            "Title": "Calculus II" 
+        },
+        {   
+            "Course": "MAT 1630", 
+            "Title": "Benchmarks in Calculus and Mathematical Problem Solving" 
+        },
+        {   
+            "Course": "MAT 2580", 
+            "Title": "Introduction to Linear Algebra" 
+        },
+        {   
+            "Course": "MAT 2675", 
+            "Title": "Calculus III"
+        }
+    ],
+    "Electives": [
+            { 
+                "Course": "CST 2301", 
+                "Title": "Multimedia and Mobile Device Programming" 
+            },
+            { 
+                "Course": "CST 2309", 
+                "Title": "Web Programming I" 
+            },
+            { 
+                "Course": "CST 2409", 
+                "Title": "Web Programming II" 
+            },
+            { 
+                "Course": "CST 2403", 
+                "Title": "Introductory C++ Programming Language Part I" 
+            },
+            { 
+                "Course": "CST 3503", 
+                "Title": "C++ Programming Part II" 
+            },
+            { 
+                "Course": "CST 3513", 
+                "Title": "Object Oriented Programming in Java" 
+            },
+            { 
+                "Course": "CST 3613", 
+                "Title": "Application Development with Databases" 
+            },
+            { 
+                "Course": "MAT 2680", 
+                "Title": "Differential Equations" 
+            },
+            { 
+                "Course": "MAT 3770", 
+                "Title": "Mathematical Modeling I - Optimization" 
+            },
+            { 
+                "Course": "MAT 4880", 
+                "Title": "Mathematical Modeling II" 
+            },
+            { 
+                "Course": "MAT 2630", 
+                "Title": "Numerical Methods Math Core" 
+            },
+            { 
+                "Course": "MAT 3772", 
+                "Title": "Stochastic Models" 
+            },
+            { 
+                "Course": "MAT 3880", 
+                "Title": "An Introduction to Partial Differential Equations" 
+            },
+            { 
+                "Course": "MAT 3672", 
+                "Title": "Probability & Math Statistics II" 
+            },
+            { 
+                "Course": "MAT 4672", 
+                "Title": "Computational Statistics with Application" 
+            },
+            { 
+                "Course": "MAT 3788", 
+                "Title": "Applications of the Heat Equation for Financial Mathematics" 
+            },
+            { 
+                "Course": "MAT 4788", 
+                "Title": "Financial Risk Modeling" 
+            },
+
+            { 
+                "Course": "PHYS 2605", 
+                "Title": "Introduction to Laser Physics and Photonics" 
+            },
+            { 
+                "Course": "PHYS 3400", 
+                "Title": "Advanced Quantum Mechanics" 
+            },
+            { 
+                "Course": "PHYS 3500", 
+                "Title": "Statistical Physics and Thermodynamics" 
+            }
+    ],
+                "FreeElective": true,
+                "FreeElectiveNote": "This major includes free electives. Any course at City Tech may be used to satisfy this requirement, even though the catalog provides a suggested elective list."
+
+},"Applied Mathematics BS": {
+    "Core": [
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "MAT 1630",
+            "Title": "Introduction to Computational Science"
+        },
+        {
+            "Course": "MAT 2440",
+            "Title": "Data Structures and Algorithms"
+        },
+        {
+            "Course": "MAT 2572",
+            "Title": "Probability and Mathematical Statistics I"
+        },
+        {
+            "Course": "MAT 2580",
+            "Title": "Introduction to Linear Algebra"
+        },
+        {
+            "Course": "MAT 2630",
+            "Title": "Numerical Methods Math Core"
+        },
+        {
+            "Course": "MAT 2675",
+            "Title": "Calculus III"
+        },
+        {
+            "Course": "MAT 2680",
+            "Title": "Differential Equations"
+        },
+        {
+            "Course": "MAT 3672",
+            "Title": "Probability & Mathematical Statistics II"
+        },
+        {
+            "Course": "MAT 3770",
+            "Title": "Mathematical Modeling I - Optimization"
+        },
+        {
+            "Course": "MAT 3772",
+            "Title": "Stochastic Models"
+        },
+        {
+            "Course": "MAT 3880",
+            "Title": "An Introduction to Partial Differential Equations"
+        },
+        {
+            "Course": "MAT 4672",
+            "Title": "Computational Statistics with Application"
+        },
+        {
+            "Course": "MAT 4788",
+            "Title": "Financial Risk Modeling"
+        },
+        {
+            "Course": "MAT 4800",
+            "Title": "Topics in Applied Mathematics"
+        },
+        {
+            "Course": "MAT 4880",
+            "Title": "Mathematical Modeling II"
+        },
+        {
+            "Course": "MAT 4900",
+            "Title": "Internship I"
+        },
+        {
+            "Course": "MAT 4901",
+            "Title": "Internship II"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FREE ELECTIVE",
+            "Title": "Any course chosen by student to satisfy 120-credit requirement"
+        }
+    ],
+            "FreeElective": true,
+            "FreeElectiveNote": "This major includes free electives. Any course at City Tech may be used to satisfy this requirement."
+},"Biomedical Informatics BS": {
+    "Core": [
+        {
+            "Course": "BIO 1101",
+            "Title": "Biology I"
+        },
+        {
+            "Course": "BIO 1201",
+            "Title": "Biology II"
+        },
+        {
+            "Course": "BIO 2450",
+            "Title": "Genetics"
+        },
+        {
+            "Course": "BIO 3620",
+            "Title": "Molecular & Cell Biology"
+        },
+        {
+            "Course": "BIO 2710",
+            "Title": "Programming for Biologists"
+        },
+        {
+            "Course": "BIO 3350",
+            "Title": "Bioinformatics I"
+        },
+        {
+            "Course": "BIO 3352",
+            "Title": "Bioinformatics II"
+        },
+        {
+            "Course": "BIO 3450",
+            "Title": "Biomedical Data Analytics I"
+        },
+        {
+            "Course": "BIO 4550",
+            "Title": "Biomedical Informatics Colloquium"
+        },
+        {
+            "Course": "CHEM 1110",
+            "Title": "General Chemistry I"
+        },
+        {
+            "Course": "CHEM 1210",
+            "Title": "General Chemistry II"
+        },
+        {
+            "Course": "CST 1101",
+            "Title": "Problem Solving with Computer Programming"
+        },
+        {
+            "Course": "CST 1201",
+            "Title": "Programming Fundamentals"
+        },
+        {
+            "Course": "CST 2403",
+            "Title": "Introductory C++ Programming I"
+        },
+        {
+            "Course": "CST 1204",
+            "Title": "Database Systems Fundamentals"
+        },
+        {
+            "Course": "MAT 1372",
+            "Title": "Statistics with Probability"
+        },
+        {
+            "Course": "MAT 2572",
+            "Title": "Probability and Mathematical Statistics I"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        }
+    ],
+    "Research Experience": [
+        {
+            "Course": "BIO 4900",
+            "Title": "Internship/Research in Biomedical Informatics"
+        },
+        {
+            "Course": "BIO 4910",
+            "Title": "Independent Research Study: Information Literacy"
+        },
+        {
+            "Course": "BIO 4920",
+            "Title": "Independent Research Study: Guided Research"
+        }
+    ],
+    "Electives" : [
+        {
+            "Course": "FREE ELECTIVE",
+            "Title": "Any course chosen by the student to satisfy remaining credit requirements (take free electives as needed to reach 120 total credits; choose based on interests, career goals, and faculty advisement)"
+        }
+    ],
+            "FreeElective": true,
+            "FreeElectiveNote": "This major allows students to choose elective credits to reach 120 total credits. Elective choices should reflect the student's interests, goals, and plans."
+
+},"Business and Technology of Fashion BS": {
+    "Core": [
+        {
+            "Course": "ACC 1101",
+            "Title": "Principles of Accounting I"
+        },
+        {
+            "Course": "ACC 1162",
+            "Title": "Elements of Accounting"
+        },
+        {
+            "Course": "ANTH 1101",
+            "Title": "Introductory Anthropology"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        },
+        {
+            "Course": "SOC 1101",
+            "Title": "Elements of Sociology"
+        },
+        {
+            "Course": "ARTH 1103",
+            "Title": "Introduction to the History of Art"
+        },
+        {
+            "Course": "ARTH 1204",
+            "Title": "20th Century Dress and Culture"
+        },
+        {
+            "Course": "HIS 1204",
+            "Title": "20th Century Dress and Culture"
+        },
+        {
+            "Course": "BUF 1101",
+            "Title": "Introduction to the Fashion Industry"
+        },
+        {
+            "Course": "BUF 2400",
+            "Title": "Product Development in the Fashion Industry"
+        },
+        {
+            "Course": "BUF 2203",
+            "Title": "Visual Merchandising"
+        },
+        {
+            "Course": "BUF 2246",
+            "Title": "Introduction to Textiles"
+        },
+        {
+            "Course": "BUF 2255",
+            "Title": "Merchandising Planning and Buying"
+        },
+        {
+            "Course": "BUF 3100",
+            "Title": "Trend Forecasting and Social Media"
+        },
+        {
+            "Course": "BUF 4700",
+            "Title": "Contemporary Issues in the Fashion Industry"
+        },
+        {
+            "Course": "BUF 4900",
+            "Title": "Internship"
+        },
+        {
+            "Course": "BUS 2341",
+            "Title": "Financial Forecasting"
+        },
+        {
+            "Course": "BUS 1122",
+            "Title": "Business Law"
+        },
+        {
+            "Course": "BUS 2339",
+            "Title": "Financial Management"
+        },
+        {
+            "Course": "ECON 1101",
+            "Title": "Macroeconomics"
+        },
+        {
+            "Course": "MKT 1103",
+            "Title": "Foundations of Marketing and Sales"
+        },
+        {
+            "Course": "MKT 1214",
+            "Title": "Advertising"
+        },
+        {
+            "Course": "MKT 1210",
+            "Title": "Marketing Research"
+        },
+        {
+            "Course": "MKT 2327",
+            "Title": "Entrepreneurship"
+        },
+        {
+            "Course": "MKT 2300",
+            "Title": "Direct and Interactive Marketing"
+        },
+        {
+            "Course": "SBS 3201",
+            "Title": "Gender, Dress and Society"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "ACC 1101",
+            "Title": "Principles of Accounting I"
+        },
+        {
+            "Course": "ACC 1162",
+            "Title": "Elements of Accounting"
+        },  
+        {
+            "Course": "ACC 1201",
+            "Title": "Principles of Accounting II"
+        },
+        {
+            "Course": "ACC 2301",
+            "Title": "Intermediate Accounting I"
+        },
+        {
+            "Course": "ACC 2311",
+            "Title": "Cost Accounting I"
+        },
+        {
+            "Course": "ACC 2322",
+            "Title": "Taxes"
+        },
+        {
+            "Course": "ACC 2335",
+            "Title": "Micro-Computer Accounting Applications"
+        },
+        {
+            "Course": "ACC 2401",
+            "Title": "Intermediate Accounting II"
+        },
+        {
+            "Course": "ACC 2411",
+            "Title": "Cost Accounting II"
+        },
+        {
+            "Course": "BUF 1101",
+            "Title": "Intro to the Fashion Industry"
+        },
+        {
+            "Course": "BUF 2203",
+            "Title": "Visual Merchandising"
+        },
+        {
+            "Course": "BUF 2204",
+            "Title": "Global History of Dress & Textiles"
+        },
+        {
+            "Course": "BUF 2246",
+            "Title": "Introduction to Textiles"
+        },
+        {
+            "Course": "BUF 2255",
+            "Title": "Merchandising Planning & Buying"
+        },
+        {
+            "Course": "BUF 2400",
+            "Title": "Product Development in Fashion"
+        },
+        {
+            "Course": "BUF 3100",
+            "Title": "Trend and Social Media"
+        },
+        {
+            "Course": "BUF 3246",
+            "Title": "Advanced Textile Techniques"
+        },
+        {
+            "Course": "BUF 3300",
+            "Title": "International Retailing"
+        },
+        {
+            "Course": "BUF 3310",
+            "Title": "Contemporary Design and Luxury Markets"
+        },
+        {
+            "Course": "BUF 3346",
+            "Title": "Textile Technologies"
+        },
+        {   
+            "Course": "BUF 3400",
+            "Title": "E-Commerce and Global Manufacturing"
+        },
+        {
+            "Course": "BUF 3500",
+            "Title": "Brand Image Marketing"
+        },
+        {
+            "Course": "BUF 3510",
+            "Title": "Fashion Buying Technologies"
+        },
+        {
+            "Course": "BUF 4246",
+            "Title": "Future Fashion and Textiles"
+        },
+        {
+            "Course": "BUF 4300",
+            "Title": "Global Sourcing & International Retail Trade"
+        },
+        {
+            "Course": "BUF 4400",
+            "Title": "Marketing for Digital Platforms"
+        },
+        {
+            "Course": "BUF 4500",
+            "Title": "Omni-Channel Retailing"
+        },
+        {
+            "Course": "BUF 4700",
+            "Title": "Contemporary Issues in Fashion"
+        },
+        {
+            "Course": "BUF 4900",
+            "Title": "Internship"
+        },
+        {
+            "Course": "BUS 1122",
+            "Title": "Business Law"
+        },
+        {
+            "Course": "BUS 1123",
+            "Title": "Business Mathematics"
+        },
+        {
+            "Course": "BUS 2339",
+            "Title": "Financial Management"
+        },
+        {   
+            "Course": "BUS 2340",
+            "Title": "Financial Management"
+        },
+        {
+            "Course": "BUS 2341",
+            "Title": "Financial Forecasting"
+        },
+        {
+            "Course": "BUS 2425",
+            "Title": "Business Management"
+        },
+        {
+            "Course": "BUS 3525",
+            "Title": "Strategic Management"
+        },
+        {
+            "Course": "MKT 1100",
+            "Title": "Essentials of Marketing"
+        },
+        {
+            "Course": "MKT 1102",
+            "Title": "Principles of Selling"
+        },
+        {
+            "Course": "MKT 1103",
+            "Title": "Foundations of Marketing"
+        },
+        {
+            "Course": "MKT 1114",
+            "Title": "Business Organization & Operations"
+        },
+        {
+            "Course": "MKT 1144",
+            "Title": "Business Mathematics"
+        },
+        {
+            "Course": "MKT 1210",
+            "Title": "Marketing Research"
+        },
+        {
+            "Course": "MKT 1212",
+            "Title": "Consumer Behavior"
+        },
+        {
+            "Course": "MKT 1214",
+            "Title": "Advertising"
+        },
+        {
+            "Course": "MKT 2300",
+            "Title": "Direct & Interactive Marketing"
+        },
+        {
+            "Course": "MKT 2327",
+            "Title": "Entrepreneurship"
+        },
+        {
+            "Course": "MKT 2373",
+            "Title": "Supply Chain Management"
+        },  
+        {
+            "Course": "MKT 2410",
+            "Title": "Marketing Management"
+        },
+        {
+            "Course": "MKT 2414",
+            "Title": "Sales Management"
+        }
+    ],
+             "FreeElective": false
+},"Career and Technical Teacher Education BSED": {
+    "Core": [
+        {
+            "Course": "EDU 2354",
+            "Title": "Laboratory Organization & Management of Instruction"
+        },
+        {
+            "Course": "EDU 2362",
+            "Title": "Methods of Teaching in Career and Technology Education I"
+        },
+        {
+            "Course": "EDU 2455",
+            "Title": "Methods and Materials for Special Needs Students"
+        },
+        {
+            "Course": "EDU 2510",
+            "Title": "Orientation to Career and Technical Education"
+        },
+        {
+            "Course": "EDU 2520",
+            "Title": "Occupational Analysis and Curriculum Organization"
+        },
+        {
+            "Course": "EDU 3630",
+            "Title": "Assessing Student Learning Outcomes"
+        },
+        {
+            "Course": "EDU 3640",
+            "Title": "Computers in Education"
+        },
+        {
+            "Course": "EDU 3670",
+            "Title": "Methods of Literacy Instruction in Teacher Education"
+        },
+        {
+            "Course": "EDU 3682",
+            "Title": "Internship in Career & Technology Education"
+        },
+        {
+            "Course": "EDU 3700",
+            "Title": "Practicum in Occupational Competency: Performance"
+        },
+        {
+            "Course": "EDU 3720",
+            "Title": "Practicum in Occupational Competency: Written"
+        },
+        {
+            "Course": "EDU 4602",
+            "Title": "Professional Development Seminar"
+        },
+        {
+            "Course": "EDU 4872",
+            "Title": "Supervised Student Teaching in Career and Technical Education"
+        },
+        {
+            "Course": "LIB 1201",
+            "Title": "Research and Documentation in the Information Age"
+        },
+        {
+            "Course": "MAT 1272",
+            "Title": "Statistics"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        },
+        {
+            "Course": "PSY 2501",
+            "Title": "Child and Adolescent Development"
+        },
+        {
+            "Course": "EDU 2610",
+            "Title": "Child and Adolescent Development"
+        },
+        {
+            "Course": "PSY 3502",
+            "Title": "Human Learning & Instruction"
+        },
+        {
+            "Course": "EDU 3610",
+            "Title": "Human Learning and Instruction"
+        },
+        {
+            "Course": "SOC 1101",
+            "Title": "Elements of Sociology"
+        },
+        {
+            "Course": "SOC 2380ID",
+            "Title": "Sociology of Education"
+        }
+    ],
+    "Electives": [],
+            "FreeElective": false
+},"Communication Design": {
+    "Core": [
+        {
+            "Course": "COMD 1100",
+            "Title": "Graphic Design Principles I"
+        },
+
+        {
+            "Course": "COMD 1112",
+            "Title": "Digital Media Foundations"
+        },
+
+        {
+            "Course": "COMD 1127",
+            "Title": "Type and Media"
+        },
+
+        {
+            "Course": "COMD 1123",
+            "Title": "Foundation Drawing"
+        },
+
+        {
+            "Course": "COMD 1162",
+            "Title": "Raster and Vector Graphics"
+        },
+
+        {
+            "Course": "COMD 1200",
+            "Title": "Graphic Design Principles II"
+        },
+
+        {
+            "Course": "COMD 1233",
+            "Title": "Figure Drawing"
+        },
+
+        {
+            "Course": "COMD 1257",
+            "Title": "Typographic Design"
+        },
+
+        {
+            "Course": "COMD 1340",
+            "Title": "Photography I"
+        },
+
+        {
+            "Course": "COMD 2300",
+            "Title": "Communication Design I"
+        },
+
+        {
+            "Course": "COMD 2320",
+            "Title": "Introduction to Video"
+        },
+
+        {
+            "Course": "COMD 2400",
+            "Title": "Communication Design II"
+        },
+
+        {
+            "Course": "COMD 2451",
+            "Title": "Web Design I"
+        },
+
+        {
+            "Course": "COMD 3504",
+            "Title": "Communication Design Theory"
+        },
+
+        {
+            "Course": "COMD 4730",
+            "Title": "Senior Project Research"
+        },
+
+        {
+            "Course": "COMD 4701",
+            "Title": "The Design Team"
+        },
+
+        {
+            "Course": "COMD 4801",
+            "Title": "Portfolio"
+        },
+
+        {
+            "Course": "COMD 4830",
+            "Title": "Senior Project"
+        },
+
+        {
+            "Course": "COMD 4900",
+            "Title": "Internship in Communication Design"
+        }
+    ],
+
+    "Electives": [],
+            "FreeElective": false
+},"Computer Systems ": {
+    "Core": [
+        {
+           "Course": "ACC 1101",
+           "Title": "Principles of Accounting I"
+        },
+        {
+           "Course": "BUS 2425",
+            "Title": "Business Management"
+        },
+        {
+            "Course": "COM 1330",
+            "Title": "Public Speaking"
+        },
+        {
+            "Course": "CST 1100",
+            "Title": "Introduction to Computer Systems"
+        },
+        {
+            "Course": "CST 1101",
+            "Title": "Problem Solving with Computer Programming"
+        },
+        {
+            "Course": "CST 1201",
+            "Title": "Programming Fundamentals"
+        },
+        {
+            "Course": "CST 1204",
+            "Title": "Database Systems Fundamentals"
+        },
+        {
+            "Course": "CST 2307",
+            "Title": "Networking Fundamentals"
+        },
+        {
+            "Course": "CST 2309",
+            "Title": "Web Programming I"
+        },
+        {
+            "Course": "CST 2410",
+            "Title": "Introduction to Computer Security"
+        },
+        {
+            "Course": "CST 2801",
+            "Title": "Special Topics in Information Technology"
+        },
+        {
+            "Course": "CST 4800",
+            "Title": "Project Management"
+        },
+        {
+            "Course": "CST 4900",
+            "Title": "Internship in Computer Systems"
+        },
+        {
+            "Course": "CST 4905",
+            "Title": "Information Systems Project"
+        },
+        {
+            "Course": "ENG 2575",
+            "Title": "Technical Writing"
+        },
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "MAT 2440",
+            "Title": "Data Structures and Algorithms"
+        },
+        {
+            "Course": "MAT 2540",
+            "Title": "Discrete Structure 2"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        },
+        {
+            "Course": "PSY 2404",
+            "Title": "Personnel and Organizational Psychology"
+        },
+        {
+            "Course": "PSY 2404ID",
+            "Title": "Personnel and Organizational Psychology"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "CST 2206",
+            "Title": "Intro Information Systems Tech"
+        },
+        {
+            "Course": "CST 2301",
+            "Title": "Multimedia & Mobile Device"
+        },
+        {
+            "Course": "CST 2302",
+            "Title": "Sequential Mainframe Prog 2"
+        },
+        {
+            "Course": "CST 2303",
+            "Title": "Online Programming (CICS)"
+        },
+        {
+            "Course": "CST 2304",
+            "Title": "Database Systems Fundamentals"
+        },
+        {
+            "Course": "CST 2307",
+            "Title": "Networking Fundamentals"
+        },
+        {
+            "Course": "CST 2309",
+            "Title": "Web Programming I"
+        },
+        {
+            "Course": "CST 2312",
+            "Title": "Information & Data Management"
+        },
+        {
+            "Course": "CST 2400",
+            "Title": "Computer Systems Mgt & Support"
+        },
+        {
+            "Course": "CST 2402",
+            "Title": "Introduction to Data Science"
+        },
+        {
+            "Course": "CST 2403",
+            "Title": "Intro C++ Programming I"
+        },
+        {
+            "Course": "CST 2405",
+            "Title": "System Admin (Windows)"
+        },
+        {
+            "Course": "CST 2406",
+            "Title": "Systems Analysis and Design"
+        },
+        {
+            "Course": "CST 2409",
+            "Title": "Web Programming II"
+        },
+        {
+            "Course": "CST 2410",
+            "Title": "Intro to Computer Security"
+        },
+        {
+            "Course": "CST 2412",
+            "Title": "Data Security, Privacy, Ethics"
+        },
+        {
+            "Course": "CST 2415",
+            "Title": "Systems Admin (UNIX/Linux)"
+        },
+        {
+            "Course": "CST 2801",
+            "Title": "Special Topics Information Tech"
+        },
+        {
+            "Course": "CST 2900",
+            "Title": "AAS Internship"
+        }
+    ],
+            "FreeElective": false
+},"Construction Engineering Technology": {
+    "Core": [
+        {
+            "Course": "ARCH 3551",
+            "Title": "Sustainability: History & Practice"
+        },
+        {
+            "Course": "CMCE 1110",
+            "Title": "Construction Drawings I"
+        },
+        {
+            "Course": "CMCE 1114",
+            "Title": "Materials and Methods of Construction I"
+        },
+        {
+            "Course": "CMCE 1115",
+            "Title": "Statics"
+        },
+        {
+            "Course": "CMCE 1211",
+            "Title": "Construction Drawings II - Computer Aided Drawing (CAD)"
+        },
+        {
+            "Course": "CMCE 1215",
+            "Title": "Strength of Materials"
+        },
+        {
+            "Course": "CMCE 1221",
+            "Title": "Introduction to the Built Environment"
+        },
+        {
+            "Course": "CMCE 1222",
+            "Title": "Surveying I"
+        },
+        {
+            "Course": "CMCE 1224",
+            "Title": "Methods and Materials of Construction II"
+        },
+        {
+            "Course": "CMCE 2306",
+            "Title": "Materials Testing Laboratory"
+        },
+        {
+            "Course": "CMCE 2315",
+            "Title": "Elements of Structural Design - Steel"
+        },
+        {
+            "Course": "CMCE 2319",
+            "Title": "Building Service System"
+        },
+        {
+            "Course": "CMCE 2321",
+            "Title": "Fundamentals of Construction"
+        },
+        {
+            "Course": "CMCE 2322",
+            "Title": "Surveying II"
+        },
+        {
+            "Course": "CMCE 2351",
+            "Title": "Fluid Mechanics"
+        },
+        {
+            "Course": "CMCE 2351L",
+            "Title": "Fluid Mechanics Laboratory"
+        },
+        {
+            "Course": "CMCE 2410",
+            "Title": "Construction Drawings III (CAD)"
+        },
+        {
+            "Course": "CMCE 2412",
+            "Title": "Construction Estimating"
+        },
+        {
+            "Course": "CMCE 2416",
+            "Title": "Elements of Structural Design - Concrete"
+        },
+        {
+            "Course": "CMCE 2421",
+            "Title": "Planning & Scheduling"
+        },
+        {
+            "Course": "CMCE 2454",
+            "Title": "Applied Hydraulics: Water Supply and Sewerage Treatment"
+        },
+        {
+            "Course": "CMCE 2456",
+            "Title": "Soil Mechanics and Laboratory"
+        },
+        {
+            "Course": "CMCE 2457",
+            "Title": "Construction Techniques in Civil Engineering"
+        },
+        {
+            "Course": "ECON 1101",
+            "Title": "Macroeconomics"
+        },
+        {
+            "Course": "CMCE 3501",
+            "Title": "Steel Fabrication Detailing"
+        },
+        {
+            "Course": "CMCE 3520",
+            "Title": "Construction Management for Civil Engineering Technologists"
+        },
+        {
+            "Course": "CMCE 3602",
+            "Title": "Heavy Construction Practices"
+        },
+        {
+            "Course": "CMCE 4700",
+            "Title": "Construction Law"
+        },
+        {
+            "Course": "CMCE 4701",
+            "Title": "Construction Field Management"
+        },
+        {
+            "Course": "CMCE 4702",
+            "Title": "Construction & Site Safety Management"
+        },
+        {
+            "Course": "CMCE 4800",
+            "Title": "Senior Capstone Project"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "PHYS 1433",
+            "Title": "General Physics I: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        },
+        {
+            "Course": "PHYS 1434",
+            "Title": "General Physics II: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1442",
+            "Title": "General Physics II: Calculus Based"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "CMCE 4400",
+            "Title": "Bridge Building Technology"
+        },
+        {
+            "Course": "CMCE 4401",
+            "Title": "Special Topics in Construction Engineering Technology"
+        },
+        {
+            "Course": "CMCE 4410",
+            "Title": "Land Development & Design"
+        },
+        {
+            "Course": "CMCE 4415",
+            "Title": "Real Estate Development Fundamentals"
+        },
+        {
+            "Course": "CMCE 4422",
+            "Title": "Introduction to Geographic Information Systems"
+        },
+        {
+            "Course": "CMCE 4423",
+            "Title": "Transportation Engineering Technology"
+        },
+        {
+            "Course": "CMCE 4456",
+            "Title": "Foundation Analysis & Design"
+        },
+        {
+            "Course": "CMCE 4458",
+            "Title": "Earth Retaining Structures"
+        },
+        {
+            "Course": "CMCE 4460",
+            "Title": "Design of Temporary Structures"
+        },
+        {
+            "Course": "CMCE 4471",
+            "Title": "Quality Assurance"
+        },
+        {
+            "Course": "CMCE 4472",
+            "Title": "Risk Management in Construction"
+        },
+        {
+            "Course": "CMCE 4473",
+            "Title": "Advanced Building Information Modeling"
+        }
+    ],
+            "FreeElective": false
+},"Data Analytics / Economics BS": {
+    "Core": [
+        {
+            "Course": "CST 1100",
+            "Title": "Introduction to Computer Systems"
+        },
+        {
+            "Course": "CST 1101",
+            "Title": "Problem Solving with Computer Programming"
+        },
+        {
+            "Course": "CST 1201",
+            "Title": "Programming Fundamentals"
+        },
+        {
+            "Course": "CST 2402",
+            "Title": "Introduction to Data Science"
+        },
+        {
+            "Course": "ECON 1101",
+            "Title": "Macroeconomics"
+        },
+        {
+            "Course": "ECON 1401",
+            "Title": "Microeconomics"
+        },
+        {
+            "Course": "ECON 2101",
+            "Title": "Intermediate Macroeconomics"
+        },
+        {
+            "Course": "ECON 2201",
+            "Title": "Introductory Econometrics"
+        },
+        {
+            "Course": "ECON 2401",
+            "Title": "Intermediate Microeconomics"
+        },
+        {
+            "Course": "ECON 3101",
+            "Title": "Applied Macroeconomics"
+        },
+        {
+            "Course": "ECON 3201",
+            "Title": "Advanced Topics in Econometrics"
+        },
+        {
+            "Course": "ECON 3301",
+            "Title": "Visualizing and Mapping Economics Data"
+        },
+        {
+            "Course": "ECON 3401",
+            "Title": "Applied Microeconomics"
+        },
+        {
+            "Course": "ECON 3801",
+            "Title": "Introduction to Statistical Learning in Social Sciences"
+        },
+        {
+            "Course": "ECON 4201",
+            "Title": "Internship / Research Project"
+        },
+        {
+            "Course": "MAT 1372",
+            "Title": "Statistics with Probability"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "MAT 2580",
+            "Title": "Introduction to Linear Algebra"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "ECON 2301",
+            "Title": "Money and Banking"
+        },
+        {
+            "Course": "ECON 2403",
+            "Title": "Labor Management Relations"
+        },
+        {
+            "Course": "ECON 2505ID",
+            "Title": "Environmental Economics"
+        },
+        {
+            "Course": "ECON 2820ID",
+            "Title": "Behavioral Economics"
+        },
+        {
+            "Course": "MAT 2675",
+            "Title": "Calculus III"
+        },
+        {
+            "Course": "PHIL 2202ID",
+            "Title": "Symbolic Logic"
+        },
+        {
+            "Course": "SOC 3303",
+            "Title": "Data, AI, and Society"
+        }
+    ],
+            "FreeElective": false
+},"Electrical Engineering Technology BTech": {
+    "Core": [
+        {
+            "Course": "ECON 1101",
+            "Title": "Macroeconomics"
+        },
+        {
+            "Course": "EET 1102",
+            "Title": "Techniques of Electrical Technology"
+        },
+        {
+            "Course": "EET 1122",
+            "Title": "Circuit Analysis I"
+        },
+        {
+            "Course": "EET 1202",
+            "Title": "Electrical Drafting"
+        },
+        {
+            "Course": "EET 1222",
+            "Title": "Circuit Analysis II"
+        },
+        {
+            "Course": "EET 1240",
+            "Title": "Electronics"
+        },
+        {
+            "Course": "EET 1241",
+            "Title": "Electronics Laboratory"
+        },
+        {
+            "Course": "EET 2122",
+            "Title": "Advanced Circuit Analysis"
+        },
+        {
+            "Course": "EET 2140",
+            "Title": "Communications Electronics"
+        },
+        {
+            "Course": "EET 2141",
+            "Title": "Communications Electronics Laboratory"
+        },
+        {
+            "Course": "EET 2150",
+            "Title": "Electric Machines Theory"
+        },
+        {
+            "Course": "EET 2162",
+            "Title": "Digital Electronics I"
+        },
+        {
+            "Course": "EET 2171",
+            "Title": "Projects Laboratory"
+        },
+        {
+            "Course": "EET 2220",
+            "Title": "Electronic Controls"
+        },
+        {
+            "Course": "EET 2251",
+            "Title": "Electric Machines Laboratory"
+        },
+        {
+            "Course": "EET 2262",
+            "Title": "Digital Electronics II"
+        },
+        {
+            "Course": "EET 2271",
+            "Title": "Circuit Analysis Laboratory"
+        },
+        {
+            "Course": "EET 3102",
+            "Title": "Signals & Systems"
+        },
+        {
+            "Course": "EET 3112",
+            "Title": "Advanced Microcontroller & Embedded System Design"
+        },
+        {
+            "Course": "EET 3122",
+            "Title": "Sensors and Instruments"
+        },
+        {
+            "Course": "EET 3202",
+            "Title": "Principles of Communication Systems"
+        },
+        {
+            "Course": "EET 3212",
+            "Title": "Control Systems"
+        },
+        {
+            "Course": "EET 3222",
+            "Title": "Power Electronics"
+        },
+        {
+            "Course": "EET 4102",
+            "Title": "Electrical Power Systems"
+        },
+        {
+            "Course": "EET 4112",
+            "Title": "Applied Mechatronics"
+        },
+        {
+            "Course": "EET 4202",
+            "Title": "Digital Signal Processing"
+        },
+        {
+            "Course": "ENG 2570",
+            "Title": "Writing in the Workplace"
+        },
+        {
+            "Course": "ENG 2575",
+            "Title": "Technical Writing"
+        },
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "MAT 1372",
+            "Title": "Statistics with Probability"
+        },
+        {
+            "Course": "MAT 2572",
+            "Title": "Probability and Mathematical Statistics I"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "PHIL 2106",
+            "Title": "Philosophy of Technology"
+        },
+        {
+            "Course": "PHYS 1433",
+            "Title": "General Physics I: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        },
+        {
+            "Course": "PHYS 1434",
+            "Title": "General Physics II: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1442",
+            "Title": "General Physics II: Calculus Based"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "EET 3132",
+            "Title": "Remote Sensing"
+        },
+        {
+            "Course": "EET 4120",
+            "Title": "Engineering Technology Management"
+        },
+        {
+            "Course": "TCET 3222",
+            "Title": "Satellite Transmission Theory/Lab"
+        },
+        {
+            "Course": "TCET 4102",
+            "Title": "Fiber-Optic Communications"
+        },
+        {
+            "Course": "TCET 4132",
+            "Title": "Wireless Communications"
+        },
+        {
+            "Course": "TCET 4140",
+            "Title": "Telecommunications Network Management"
+        }
+    ],
+            "FreeElective": false
+},"Telecommunications Engineering Technology": {
+    "Core": [
+        {
+            "Course": "TCET 3102",
+            "Title": "Analog and Digital Communications I"
+        },
+        {
+            "Course": "TCET 3122",
+            "Title": "Switching and Automata Theory"
+        },
+        {
+            "Course": "TCET 3142",
+            "Title": "Computer Systems"
+        },
+        {
+            "Course": "TCET 3202",
+            "Title": "Analog and Digital Communications II"
+        },
+        {
+            "Course": "TCET 3222",
+            "Title": "Satellite Transmission"
+        },
+        {
+            "Course": "TCET 4102",
+            "Title": "Fiber-Optic Communications (WI)"
+        },
+        {
+            "Course": "TCET 4182",
+            "Title": "Telecommunications Capstone Project I"
+        },
+        {
+            "Course": "TCET 4140",
+            "Title": "Telecommunications Network Management"
+        },
+        {
+            "Course": "TCET 4202",
+            "Title": "Advanced Telecommunications"
+        },
+        {
+            "Course": "TCET 4282",
+            "Title": "Telecommunications Capstone Project II"
+        },
+        {
+            "Course": "TCET 4132",
+            "Title": "Wireless Communications"
+        },
+        {
+            "Course": "CST 2403",
+            "Title": "Introductory C++ Programming Language Part I"
+        },
+        {
+            "Course": "ENG 2570",
+            "Title": "Writing in the Workplace"
+        },
+        {
+            "Course": "ENG 2575",
+            "Title": "Technical Writing"
+        },
+        {
+            "Course": "MAT 1372",
+            "Title": "Statistics with Probability"
+        }
+    ],
+    "Electives": []
+},"Emerging Media Technology BTech": {
+    "Core": [
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "MAT 2440",
+            "Title": "Data Structures and Algorithms"
+        },
+        {
+            "Course": "MTEC 1000",
+            "Title": "Topics and Perspectives in Emerging Technology"
+        },
+        {
+            "Course": "MTEC 1101",
+            "Title": "Design Foundations I"
+        },
+        {
+            "Course": "MTEC 1102",
+            "Title": "Design Foundations II"
+        },
+        {
+            "Course": "MTEC 1201",
+            "Title": "Computer Programming for Interactive Media I"
+        },
+        {
+            "Course": "MTEC 1202",
+            "Title": "Computer Programming for Interactive Media II"
+        },
+        {
+            "Course": "MTEC 2210",
+            "Title": "Game Development"
+        },
+        {
+            "Course": "MTEC 2240",
+            "Title": "Computer Music"
+        },
+        {
+            "Course": "MTEC 2250",
+            "Title": "Digital Fabrication"
+        },
+        {
+            "Course": "MTEC 2280",
+            "Title": "Physical Computing"
+        },
+        {
+            "Course": "MTEC 3200",
+            "Title": "Special Topics in Emerging Media Technology"
+        },
+        {
+            "Course": "MTEC 3200",
+            "Title": "Special Topics in Emerging Media Technology"
+        },
+        {
+            "Course": "MTEC 3501",
+            "Title": "Culmination Project Development"
+        },
+        {
+            "Course": "MTEC 4502",
+            "Title": "Career and Portfolio Seminar"
+        },
+        {
+            "Course": "ENT 3106",
+            "Title": "Technical Production"
+        },
+        {
+            "Course": "ENT 3106",
+            "Title": "Technical Production"
+        },
+        {
+            "Course": "ENT 4501",
+            "Title": "Culmination Project"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FOCUS AREA ELECTIVE",
+            "Title": "Choose courses from designated focus area(s) based on interest and faculty advisement"
+        }
+    ],
+            "FreeElective": false
+},"Entertainment Technology BT": {
+    "Core": [
+        {
+            "Course": "ENT 1100",
+            "Title": "Introduction to Entertainment Technology"
+        },
+        {
+            "Course": "MTEC 1201",
+            "Title": "Computer Programming for Interactive Media I"
+        },
+        {
+            "Course": "ENT 1102",
+            "Title": "Health and Safety in Production"
+        },
+        {
+            "Course": "ENT 1106",
+            "Title": "Technical Production Skills"
+        },
+        {
+            "Course": "ENT 1108",
+            "Title": "Entertainment Drafting I"
+        },
+        {
+            "Course": "ENT 1110",
+            "Title": "Scenery Construction"
+        },
+        {
+            "Course": "ENT 1190",
+            "Title": "Video Technology"
+        },
+        {
+            "Course": "ENT 1204",
+            "Title": "Basic Electricity for Live Entertainment"
+        },
+        {
+            "Course": "ENT 1250",
+            "Title": "Lighting Technology"
+        },
+        {
+            "Course": "ENT 1270",
+            "Title": "Sound Technology I"
+        },
+        {
+            "Course": "ENT 2200",
+            "Title": "Entertainment Drafting II"
+        },
+        {
+            "Course": "ENT 2280",
+            "Title": "Introduction to Show Networking"
+        },
+        {
+            "Course": "ENT 3106",
+            "Title": "Technical Production"
+        },
+        {
+            "Course": "ENT 3106",
+            "Title": "Technical Production"
+        },
+        {
+            "Course": "ENT 4430",
+            "Title": "Project Management "
+        },
+        {
+            "Course": "MTEC 3501",
+            "Title": "Culmination Project Development"
+        },
+        {
+            "Course": "ENT 4498",
+            "Title": "Career Seminar"
+        },
+        {
+            "Course": "ENT 4501",
+            "Title": "Culmination Project"
+        },
+        {
+            "Course": "ENT 4900",
+            "Title": "Internship in Entertainment Technology"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FOCUS AREA ELECTIVE",
+            "Title": "Choose courses from designated focus area(s) based on interest and faculty advisement"
+        }
+    ],
+            "FreeElective": false
+},"Facilities Management BTech": {
+    "Core": [
+        {
+            "Course": "FMGT 3510",
+            "Title": "Financial Analysis for Facilities Managers I"
+        },
+        {
+            "Course": "FMGT 3520",
+            "Title": "Anatomy of a Building"
+        },
+        {
+            "Course": "FMGT 3610",
+            "Title": "Project Management for Facilities Managers"
+        },
+        {
+            "Course": "FMGT 3620",
+            "Title": "Building Systems I"
+        },
+        {
+            "Course": "FMGT 3640",
+            "Title": "Principles of Facilities Management"
+        },
+        {
+            "Course": "FMGT 4710",
+            "Title": "Financial Analysis for Facilities Managers II"
+        },
+        {
+            "Course": "FMGT 4720",
+            "Title": "Building Systems II"
+        },
+        {
+            "Course": "FMGT 4740",
+            "Title": "Personnel Relations"
+        },
+        {
+            "Course": "FMGT 4900",
+            "Title": "Internship Project"
+        },
+        {
+            "Course": "FMGT 4902",
+            "Title": "Special Projects in Facilities Management"
+        },
+        {
+            "Course": "LAW 2306",
+            "Title": "Legal Issues for Facilities Managers"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FOCUS AREA ELECTIVE",
+            "Title": "Choose courses from designated focus area(s) based on interest and faculty advisement"
+        }
+    ],
+            "FreeElective": false
+}, "Healthcare Policy & Management BS": {
+    "Core": [
+        {
+            "Course": "BIO 1101",
+            "Title": "Biology I"
+        },
+        {
+            "Course": "BUS 1122",
+            "Title": "Business Law"
+        },
+        {
+            "Course": "COM 1403",
+            "Title": "Introduction to Communication in Healthcare Professions"
+        },
+        {
+            "Course": "COM 2403",
+            "Title": "Health Communication"
+        },
+        {
+            "Course": "COM 2403ID",
+            "Title": "Health Communication - Interdisciplinary"
+        },
+        {
+            "Course": "ECON 1101",
+            "Title": "Macroeconomics"
+        },
+        {
+            "Course": "ECON 1401",
+            "Title": "Microeconomics"
+        },
+        {
+            "Course": "HSCI 1101",
+            "Title": "Introduction to Health Delivery and Careers"
+        },
+        {
+            "Course": "HSCI 2200",
+            "Title": "Safety for Healthcare Professions"
+        },
+        {
+            "Course": "HSCI 3101",
+            "Title": "Health Care Policy & Management I"
+        },
+        {
+            "Course": "HSCI 3201",
+            "Title": "Health Care Policy and Management II"
+        },
+        {
+            "Course": "HSCI 3301",
+            "Title": "Health Law and Regulatory Compliance"
+        },
+        {
+            "Course": "HSA 3630",
+            "Title": "Health Care Finance and Accounting Management"
+        },
+        {
+            "Course": "HSCI 4101",
+            "Title": "Managerial Systems in Health Care"
+        },
+        {
+            "Course": "HSCI 4201",
+            "Title": "Medical Metrics for Health Facilities"
+        },
+        {
+            "Course": "HSCI 4910",
+            "Title": "Introduction to Public Health Administration"
+        },
+        {
+            "Course": "HSCI 4960",
+            "Title": "Nursing Home Administration"
+        },
+        {
+            "Course": "HSCI 4970",
+            "Title": "Social Marketing in Healthcare Settings"
+        },
+        {
+            "Course": "MAT 1272",
+            "Title": "Statistics"
+        },
+        {
+            "Course": "PHIL 2203",
+            "Title": "Health Care Ethics"
+        },
+        {
+            "Course": "PHIL 2203ID",
+            "Title": "Health Care Ethics - Interdisciplinary"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        },
+        {
+            "Course": "PSY 2404",
+            "Title": "Personnel and Organizational Psychology"
+        },
+        {
+            "Course": "PSY 2404ID",
+            "Title": "Personnel and Organizational Psychology - Interdisciplinary"
+        },
+        {
+            "Course": "PSY 3405",
+            "Title": "Health Psychology"
+        },
+        {
+            "Course": "PSY 3405ID",
+            "Title": "Health Psychology - Interdisciplinary"
+        },
+        {
+            "Course": "SBS 2000",
+            "Title": "Research Methods for the Social and Behavioral Sciences"
+        },
+        {
+            "Course": "SBS 2000ID",
+            "Title": "Research Methods for the Social and Behavioral Sciences - Interdisciplinary"
+        },
+        {
+            "Course": "SOC 2403",
+            "Title": "Law and Society"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FREE ELECTIVE",
+            "Title": "Any course chosen by student to satisfy 120-credit requirement"
+        }
+    ],
+            "FreeElective": true,
+            "FreeElectiveNote": "This program includes 8 credits of free electives. Students may select any courses at City Tech to meet this requirement."
+
+},"Health Services Administration BS": {
+    "Core": [
+        {
+            "Course": "ECON 1101",
+            "Title": "Macroeconomics"
+        },
+        {
+            "Course": "ECON 2403",
+            "Title": "Labor Management Relations"
+        },
+        {
+            "Course": "HSA 3510",
+            "Title": "Health Services Management I"
+        },
+        {
+            "Course": "HSA 3560",
+            "Title": "Legal Aspects of Healthcare"
+        },
+        {
+            "Course": "HSA 3602",
+            "Title": "Health Services Management II"
+        },
+        {
+            "Course": "HSA 3630",
+            "Title": "Health Care Finance and Accounting Management"
+        },
+        {
+            "Course": "HSA 4620",
+            "Title": "Healthcare Information Systems"
+        },
+        {
+            "Course": "HSA 4740",
+            "Title": "Health Research Methods"
+        },
+        {
+            "Course": "MAT 1272",
+            "Title": "Statistics"
+        },
+        {
+            "Course": "PHIL 2203",
+            "Title": "Health Care Ethics"
+        },
+        {
+            "Course": "PHIL 2203ID",
+            "Title": "Health Care Ethics - Interdisciplinary"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        },
+        {
+            "Course": "PSY 2404",
+            "Title": "Personnel and Organizational Psychology"
+        },
+        {
+            "Course": "PSY 2404ID",
+            "Title": "Personnel and Organizational Psychology - Interdisciplinary"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FREE ELECTIVE",
+            "Title": "Any course chosen by student to satisfy 120-credit requirement"
+        }
+    ],
+            "FreeElective": true,
+            "FreeElectiveNote": "This major allows students to choose elective credits to help satisfy the 120-credit degree requirement."
+
+},"Hospitality Management BTech": {
+    "Core": [
+        {
+            "Course": "COM 1330",
+            "Title": "Public Speaking"
+        },
+        {
+            "Course": "ECON 1101",
+            "Title": "Macroeconomics"
+        },
+        {
+            "Course": "HMGT 1101",
+            "Title": "Introduction to Hospitality and Tourism"
+        },
+        {
+            "Course": "HMGT 1102",
+            "Title": "Introduction to Food and Beverage Management"
+        },
+        {
+            "Course": "HMGT 1103",
+            "Title": "Food Sanitation and Safety Principles"
+        },
+        {
+            "Course": "HMGT 1105",
+            "Title": "Introduction to Lodging Management"
+        },
+        {
+            "Course": "HMGT 1202",
+            "Title": "Food and Beverage Cost Control"
+        },
+        {
+            "Course": "HMGT 1203",
+            "Title": "Culinary Arts I"
+        },
+        {
+            "Course": "HMGT 1204",
+            "Title": "Baking and Pastry Arts I"
+        },
+        {
+            "Course": "HMGT 2302",
+            "Title": "Hospitality Accounting"
+        },
+        {
+            "Course": "HMGT 2303",
+            "Title": "Culinary Arts II"
+        },
+        {
+            "Course": "HMGT 2304",
+            "Title": "Baking and Pastry Arts II"
+        },
+        {
+            "Course": "HMGT 2305",
+            "Title": "Dining Room Operations"
+        },
+        {
+            "Course": "HMGT 2308",
+            "Title": "Professional Alliances"
+        },
+        {
+            "Course": "HMGT 2402",
+            "Title": "Wines and Beverage Management"
+        },
+        {
+            "Course": "HMGT 2405",
+            "Title": "Hospitality Marketing"
+        },
+        {
+            "Course": "HMGT 3501",
+            "Title": "Hospitality Work Force Management in a Global Marketplace"
+        },
+        {
+            "Course": "HMGT 3502",
+            "Title": "Hospitality Management Research Seminar"
+        },
+        {
+            "Course": "HMGT 3601",
+            "Title": "Hospitality Management Legal Environment"
+        },
+        {
+            "Course": "HMGT 3602",
+            "Title": "Hospitality Management Accounting and Finance"
+        },
+        {
+            "Course": "HMGT 4702",
+            "Title": "Hospitality Services Marketing & Management"
+        },
+        {
+            "Course": "HMGT 4802",
+            "Title": "Hospitality Management Internship"
+        },
+        {
+            "Course": "MAT 1272",
+            "Title": "Statistics"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "HMGT 4901",
+            "Title": "Restaurant Management"
+        },
+        {
+            "Course": "HMGT 4902",
+            "Title": "Hospitality Revenue Management"
+        },
+        {
+            "Course": "HMGT 4942",
+            "Title": "Corporate/Business Travel Management"
+        },
+        {
+            "Course": "HMGT 4951",
+            "Title": "Lodging Operations Analysis"
+        },
+        {
+            "Course": "HMGT 4952",
+            "Title": "Tourism and Hospitality Entrepreneurship"
+        },
+        {
+            "Course": "HMGT 4953",
+            "Title": "Executive Housekeeping Principles"
+        },
+        {
+            "Course": "HMGT 4955",
+            "Title": "Facility Design & Property Management"
+        },
+        {
+            "Course": "HMGT 4957",
+            "Title": "Hospitality Management Legal Environment"
+        },
+        {
+            "Course": "HMGT 4958",
+            "Title": "Hotel and Resort Sales"
+        },
+        {
+            "Course": "HMGT 4959",
+            "Title": "Internship Project"
+        },
+        {
+            "Course": "HMGT 4961",
+            "Title": "Contemporary Cuisine"
+        },
+        {
+            "Course": "HMGT 4963",
+            "Title": "Garde Manger"
+        },
+        {
+            "Course": "HMGT 4965",
+            "Title": "International Cuisine"
+        },
+        {
+            "Course": "HMGT 4967",
+            "Title": "Culinary Improvisation"
+        },
+        {
+            "Course": "HMGT 4968",
+            "Title": "Art of Vegetarian Cuisine"
+        },
+        {
+            "Course": "HMGT 4971",
+            "Title": "Deluxe Desserts"
+        },
+        {
+            "Course": "HMGT 4972",
+            "Title": "Specialty Cakes"
+        },
+        {
+            "Course": "HMGT 4973",
+            "Title": "Confectionery Arts"
+        },
+        {
+            "Course": "HMGT 4975",
+            "Title": "International Desserts"
+        },
+        {
+            "Course": "HMGT 4977",
+            "Title": "Candies and Bonbons"
+        },
+        {
+            "Course": "HMGT 4978",
+            "Title": "Artisanal Bread"
+        },
+        {
+            "Course": "HMGT 4981",
+            "Title": "Geography of Travel & Tourism"
+        },
+        {
+            "Course": "HMGT 4983",
+            "Title": "Sustainable Tourism"
+        },
+        {
+            "Course": "HMGT 4985",
+            "Title": "Conference, Meeting & Business Travel Planning"
+        },
+        {
+            "Course": "HMGT 4987",
+            "Title": "Urban Tourism"
+        },
+        {
+            "Course": "HMGT 4988",
+            "Title": "Parks/Recreation/Sports Management"
+        },
+        {
+            "Course": "HMGT 4989",
+            "Title": "Culinary Tourism"
+        },
+        {
+            "Course": "HMGT 4990",
+            "Title": "Sustainable Food Systems"
+        },
+        {
+            "Course": "HMGT 4992",
+            "Title": "Menu Planning and Design"
+        },
+        {
+            "Course": "HMGT 4993",
+            "Title": "Nutrition for Food Service"
+        },
+        {
+            "Course": "HMGT 4994",
+            "Title": "Food Sanitation and Safety Principles"
+        },
+        {
+            "Course": "HMGT 4995",
+            "Title": "Wines of France"
+        },
+        {
+            "Course": "HMGT 4996",
+            "Title": "Wines of Italy"
+        },
+        {
+            "Course": "HMGT 4997",
+            "Title": "Wines - New World"
+        },
+        {
+            "Course": "HMGT 4998",
+            "Title": "Responsible Beverage Service"
+        },
+        {
+            "Course": "HMGT 4999",
+            "Title": "Events Management"
+        }
+    ],
+            "FreeElective": true,
+            "FreeElectiveNote": "This program requires students to complete at least 9 credits of free electives. Students may choose ANY course at City Tech, or complete the EDU certification instead. Free electives are used to reach the 120–125 credit requirement."
+}
+,"Human Services BS": {
+    "Core": [
+        {
+            "Course": "COM 1330",
+            "Title": "Public Speaking"
+        },
+        {
+            "Course": "HUS 1101",
+            "Title": "Introduction to Human Services"
+        },
+        {
+            "Course": "HUS 1201",
+            "Title": "Elements of Counseling"
+        },
+        {
+            "Course": "HUS 1202",
+            "Title": "Community Mental Health"
+        },
+        {
+            "Course": "HUS 1203",
+            "Title": "Human Services Seminar"
+        },
+        {
+            "Course": "HUS 1206",
+            "Title": "Group Dynamics"
+        },
+        {
+            "Course": "HUS 2305",
+            "Title": "Human Services Field Practicum I"
+        },
+        {
+            "Course": "HUS 2307",
+            "Title": "Community Organizing and Development"
+        },
+        {
+            "Course": "HUS 2401",
+            "Title": "Introduction to Gerontology"
+        },
+        {
+            "Course": "HUS 2405",
+            "Title": "Human Services Field Practicum II"
+        },
+        {
+            "Course": "HUS 3501",
+            "Title": "Counseling Methods"
+        },
+        {
+            "Course": "HUS 3503",
+            "Title": "Case Management"
+        },
+        {
+            "Course": "HUS 3504",
+            "Title": "Group Work Practice"
+        },
+        {
+            "Course": "HUS 3615",
+            "Title": "Research Methods in Human Services"
+        },
+        {
+            "Course": "HUS 4701",
+            "Title": "Professional Internship I"
+        },
+        {
+            "Course": "HUS 4801",
+            "Title": "Professional Internship II"
+        },
+        {
+            "Course": "HUS 4802",
+            "Title": "Volunteerism"
+        },
+        {
+            "Course": "HUS 4803",
+            "Title": "Resource Development in Human Services"
+        },
+        {
+            "Course": "HUS 4804",
+            "Title": "Management Concepts in Human Services"
+        },
+        {
+            "Course": "MAT 1272",
+            "Title": "Statistics"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        },
+        {
+            "Course": "PSY 2300",
+            "Title": "Lifespan Development"
+        }
+    ],
+
+    "Health Education 1000-Level Elective": [
+        {
+            "Course": "HEA 1102",
+            "Title": "Community Health"
+        },
+        {
+            "Course": "HEA 1108",
+            "Title": "Women's Health Issues"
+        },
+        {
+            "Course": "HEA 1110",
+            "Title": "Human Sexuality"
+        },
+        {
+            "Course": "HEA 1199",
+            "Title": "Care in Community Health"
+        },
+        {
+            "Course": "HEA 1400",
+            "Title": "HIV/AIDS"
+        }
+    ],
+
+    "Health Education 3500-Level Elective": [
+        {
+            "Course": "HEA 3502",
+            "Title": "Drugs/Personal Health"
+        },
+        {
+            "Course": "HEA 3503",
+            "Title": "Aging as a Health Process"
+        },
+        {
+            "Course": "HEA 3505",
+            "Title": "Health Issues: Children & Adolescents"
+        },
+        {
+            "Course": "HEA 3507",
+            "Title": "Trauma-Informed Practice"
+        },
+        {
+            "Course": "HEA 3508",
+            "Title": "Vulnerable Populations"
+        },
+        {
+            "Course": "HEA 3510",
+            "Title": "Social Welfare Policy & Programs"
+        }
+    ],
+
+    "Human Services Elective": [
+        {
+            "Course": "HUS 3602",
+            "Title": "Alcohol/Substance Abuse Treatment"
+        },
+        {
+            "Course": "HUS 3603",
+            "Title": "Human Services for Older Adults"
+        },
+        {
+            "Course": "HUS 3604",
+            "Title": "Human Services for Disabled Populations"
+        },
+        {
+            "Course": "HUS 3605",
+            "Title": "Child Welfare & Family Services"
+        },
+        {
+            "Course": "HUS 3606",
+            "Title": "Treatment Planning"
+        },
+        {
+            "Course": "HUS 3607",
+            "Title": "Strategies & Interventions for Alcohol & Substance Abuse"
+        },
+        {
+            "Course": "HUS 3608",
+            "Title": "Human Services Practice with Vulnerable Populations"
+        },
+        {
+            "Course": "HUS 3609",
+            "Title": "Human Services & the Criminal Justice System"
+        },
+        {
+            "Course": "HUS 3611",
+            "Title": "Ethics & Professional Responsibility in Human Services"
+        },
+        {
+            "Course": "HUS 3615",
+            "Title": "Research Method - Human Services"
+        },
+        {
+            "Course": "HUS 3620",
+            "Title": "Supervision in Human Services"
+        },
+        {
+            "Course": "HUS 3630",
+            "Title": "Diversity & Intersectionality"
+        }
+    ],
+
+    "GOV Course in US Experience in Its Diversity": [
+        {
+            "Course": "GOV 1101",
+            "Title": "American Government"
+        },
+        {
+            "Course": "GOV 1102",
+            "Title": "State and Local Government"
+        },
+        {
+            "Course": "GOV 2401",
+            "Title": "US Constitutional Law"
+        }
+    ],
+
+    "SOC Course in Individual and Society": [
+        {
+            "Course": "SOC 1103",
+            "Title": "The Family"
+        }
+    ],
+            "FreeElective": false
+        
+},"Mathematics Education BS": {
+    "Core": [
+        {
+            "Course": "MAT 1372",
+            "Title": "Statistics with Probability"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "MAT 2571",
+            "Title": "Introduction to Proofs"
+        },
+        {
+            "Course": "MAT 2580",
+            "Title": "Introduction to Linear Algebra"
+        },
+        {
+            "Course": "MAT 2675",
+            "Title": "Calculus III"
+        },
+        {
+            "Course": "MAT 3050",
+            "Title": "Geometry"
+        },
+        {
+            "Course": "MAT 3080",
+            "Title": "Modern Algebra"
+        },
+        {
+            "Course": "MEDU 1010",
+            "Title": "Foundations of Math Education"
+        },
+        {
+            "Course": "MEDU 1021",
+            "Title": "Teaching & Learning Strategies for Mathematics Teachers"
+        },
+        {
+            "Course": "MEDU 2901",
+            "Title": "Peer Leader Training in Mathematics"
+        },
+        {
+            "Course": "MEDU 3000",
+            "Title": "Mathematics of the Secondary School Curriculum"
+        },
+        {
+            "Course": "MEDU 3001",
+            "Title": "Methods of Teaching Middle School Mathematics"
+        },
+        {
+            "Course": "MEDU 3002",
+            "Title": "Methods of Teaching Secondary School Mathematics"
+        },
+        {
+            "Course": "MEDU 3003",
+            "Title": "Intermediate Microteaching"
+        },
+        {
+            "Course": "MEDU 4000",
+            "Title": "Student Teaching Seminar"
+        },
+        {
+            "Course": "MEDU 4001",
+            "Title": "Student Teaching in the Middle School"
+        },
+        {
+            "Course": "MEDU 4002",
+            "Title": "Student Teaching in the High School"
+        },
+        {
+            "Course": "EDU 2455",
+            "Title": "Methods and Materials for Special Needs Students"
+        },
+        {
+            "Course": "EDU 3610",
+            "Title": "Human Learning and Instruction"
+        },
+        {
+            "Course": "EDU 3670",
+            "Title": "Methods of Literacy Instruction in Teacher Education"
+        },
+        {
+            "Course": "MAT 2440",
+            "Title": "Data Structures and Algorithms"
+        },
+        {
+            "Course": "MAT 2680",
+            "Title": "Differential Equations"
+        },
+        {
+            "Course": "MAT 3075",
+            "Title": "Intro to Real Analysis"
+        },
+        {
+            "Course": "MAT 4030",
+            "Title": "History of Mathematics"
+        },
+        {
+            "Course": "ARB 1101",
+            "Title": "Elementary Arabic"
+        },
+        {
+            "Course": "ARB 1102",
+            "Title": "Elementary Arabic II"
+        },
+        {
+            "Course": "ARB 2201",
+            "Title": "Intermediate Arabic I"
+        },
+        {
+            "Course": "ARB 2202",
+            "Title": "Intermediate Arabic II"
+        },
+        {
+            "Course": "CHN 1101",
+            "Title": "Elementary Chinese I"
+        },
+        {
+            "Course": "CHN 1102",
+            "Title": "Elementary Chinese II"
+        },
+        {
+            "Course": "CHN 2201",
+            "Title": "Intermediate Chinese I"
+        },
+        {
+            "Course": "CHN 2202",
+            "Title": "Intermediate Chinese II"
+        },
+        {
+            "Course": "FREN 1101",
+            "Title": "Elementary French I"
+        },
+        {
+            "Course": "FREN 1102",
+            "Title": "Elementary French II"
+        },
+        {
+            "Course": "FREN 2201",
+            "Title": "Intermediate French I"
+        },
+        {
+            "Course": "FREN 2202",
+            "Title": "Intermediate French II"
+        },
+        {
+            "Course": "FREN 2203",
+            "Title": "French for Food and Culture"
+        },
+        {
+            "Course": "SPA 1101",
+            "Title": "Elementary Spanish I"
+        },
+        {
+            "Course": "SPA 1102",
+            "Title": "Elementary Spanish II"
+        },
+        {
+            "Course": "SPA 2201",
+            "Title": "Intermediate Spanish I"
+        },
+        {
+            "Course": "SPA 2202",
+            "Title": "Intermediate Spanish II"
+        },
+        {
+            "Course": "SPA 2203",
+            "Title": "Spanish for Health Profession"
+        },
+        {
+            "Course": "SPA 2401",
+            "Title": "Spanish for Heritage Speakers"
+        },
+        {
+            "Course": "SPA 2402",
+            "Title": "Spanish Oral and Written Academic"
+        },
+        {
+            "Course": "SPA 3301",
+            "Title": "Intro to Early Spanish Literature"
+        },
+        {
+            "Course": "SPA 3401",
+            "Title": "Intro to Modern Spanish Literature"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "CST 2403",
+            "Title": "Introductory C++ Programming Language Part I"
+        },
+        {
+            "Course": "CST 3503",
+            "Title": "C++ Programming Part II"
+        },
+        {
+            "Course": "MAT 1630",
+            "Title": "Introduction to Computational Science"
+        },
+        {
+            "Course": "MAT 2440",
+            "Title": "Data Structures and Algorithms"
+        },
+        {
+            "Course": "MAT 2540",
+            "Title": "Discrete Structure 2"
+        }
+    ], 
+            "FreeElective": true,
+            "FreeElectiveNote": "This program includes 9 credits of free electives. Students may choose ANY course at City Tech to satisfy these requirements."
+},"Mechanical Engineering Technology BTech": {
+    "Core": [
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "MAT 1475",
+            "Title": "Calculus I"
+        },
+        {
+            "Course": "MAT 1575",
+            "Title": "Calculus II"
+        },
+        {
+            "Course": "MAT 2680",
+            "Title": "Differential Equations"
+        },
+        {
+            "Course": "MECH 3501",
+            "Title": "Quality Control"
+        },
+        {
+            "Course": "MECH 3510",
+            "Title": "Advanced Solid Modeling II"
+        },
+        {
+            "Course": "MECH 3600",
+            "Title": "Mechanical Measurement & Instrumentation"
+        },
+        {
+            "Course": "MECH 3650",
+            "Title": "Advanced Strength of Materials"
+        },
+        {
+            "Course": "MECH 4700",
+            "Title": "Fluid Mechanics"
+        },
+        {
+            "Course": "MECH 4730",
+            "Title": "Finite Element Methods"
+        },
+        {
+            "Course": "MECH 4760",
+            "Title": "Vibration & Advanced Dynamics"
+        },
+        {
+            "Course": "MECH 4850",
+            "Title": "Senior Design Project"
+        },
+        {
+            "Course": "MECH 4860",
+            "Title": "Project Management"
+        },
+        {
+            "Course": "PHYS 1433",
+            "Title": "General Physics I: Algebra Based"
+        },
+        {
+            "Course": "PHYS 1441",
+            "Title": "General Physics I: Calculus Based"
+        },
+        {
+            "Course": "PHYS 1434",
+            "Title": "General Physics II: Algebra Based"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FOCUS AREA ELECTIVE",
+            "Title": "Choose courses from designated focus area(s) based on interest and faculty advisement"
+        }
+    ],
+            "FreeElective": false
+},"Paralegal Studies BS": {
+    "Core": [
+        {
+            "Course": "ACC 1162",
+            "Title": "Elements of Accounting"
+        },
+        {
+            "Course": "COM 1330",
+            "Title": "Public Speaking"
+        },
+        {
+            "Course": "COM 1340",
+            "Title": "Oral Interpretation of Literature"
+        },
+        {
+            "Course": "COM 2402",
+            "Title": "Intercultural Communication"
+        },
+        {
+            "Course": "ENG 3401",
+            "Title": "Law through Literature"
+        },
+        {
+            "Course": "LAW 1101",
+            "Title": "Introduction to Paralegal Studies"
+        },
+        {
+            "Course": "LAW 1103",
+            "Title": "Civil Law and Procedure"
+        },
+        {
+            "Course": "LAW 1200",
+            "Title": "Legal Writing and Research"
+        },
+        {
+            "Course": "LAW 1202",
+            "Title": "Real Estate Law"
+        },
+        {
+            "Course": "LAW 2301",
+            "Title": "Estates, Trusts and Wills"
+        },
+        {
+            "Course": "LAW 2302",
+            "Title": "Business Organizations and Commercial Law"
+        },
+        {
+            "Course": "LAW 2405",
+            "Title": "Tort and Insurance Law"
+        },
+        {
+            "Course": "LAW 2406",
+            "Title": "Criminal Law and Procedure"
+        },
+        {
+            "Course": "LAW 2303",
+            "Title": "Family Law"
+        },
+        {
+            "Course": "LAW 2403",
+            "Title": "Legal Document Preparation"
+        },
+        {
+            "Course": "LAW 2409",
+            "Title": "Internship and Seminar I"
+        },
+        {
+            "Course": "LAW 2410",
+            "Title": "Legal Ethics & Professional Responsibility"
+        },
+        {
+            "Course": "LAW 4704",
+            "Title": "Legal Technology"
+        },
+        {
+            "Course": "LAW 4800",
+            "Title": "Advanced Legal Research"
+        },
+        {
+            "Course": "LAW 4801",
+            "Title": "Internship and Seminar II"
+        },
+        {
+            "Course": "LAW 4900",
+            "Title": "Senior Legal Seminar"
+        },
+        {
+            "Course": "MAT 1272",
+            "Title": "Statistics"
+        },
+        {
+            "Course": "MAT 1372",
+            "Title": "Statistics with Probability"
+        },
+        {
+            "Course": "PHIL 2101",
+            "Title": "Introduction to Philosophy"
+        },
+        {
+            "Course": "PSY 1101",
+            "Title": "Introduction to Psychology"
+        },
+        {
+            "Course": "PHIL 3211",
+            "Title": "Philosophy of Law"
+        }
+    ],"Electives": [
+        {
+            "Course": "LAW 3601",
+            "Title": "Taxation for Legal Assistants"
+        },
+        {
+            "Course": "LAW 3602",
+            "Title": "Trial Preparation"
+        },
+        {
+            "Course": "LAW 3604",
+            "Title": "Employment and Labor Law"
+        },
+        {
+            "Course": "LAW 4701",
+            "Title": "Law Office Management"
+        },  
+        {
+            "Course": "LAW 4702",
+            "Title": "Bankruptcy"
+        },
+        {
+            "Course": "LAW 4703",
+            "Title": "Immigration"
+        },
+        {
+            "Course": "LAW 4705",
+            "Title": "Administrative Law"
+        },
+        {
+            "Course": "LAW 4802",
+            "Title": "Trademarks / Copyright / Patent"
+        },
+        {
+            "Course": "LAW 4805",
+            "Title": "Forensic Science"
+        },
+        {
+            "Course": "LAW 3530",
+            "Title": "Alternative Dispute Resolution"
+        },
+        {
+            "Course": "LAW 3531",
+            "Title": "Elder Law"
+        },
+        {
+            "Course": "LAW 3532",
+            "Title": "Securities"
+        },
+        {
+            "Course": "LAW 3533",
+            "Title": "Adoptions"
+        },
+        {
+            "Course": "LAW 3534",
+            "Title": "Investigative Techniques"
+        },
+        {
+            "Course": "LAW 3535",
+            "Title": "Workers' Compensation"
+        },
+        {
+            "Course": "LAW 3536",
+            "Title": "Pension and Employee Benefits"
+        },
+        {
+            "Course": "LAW 3537",
+            "Title": "Environmental Law"
+        },
+        {
+            "Course": "LAW 3538",
+            "Title": "Commercial Transactions"
+        },
+        {
+            "Course": "LAW 3539",
+            "Title": "International Law"
+        },
+        {
+            "Course": "LAW 3541",
+            "Title": "Evidence"
+        },
+        {
+            "Course": "LAW 3542",
+            "Title": "Collections"
+        },
+        {
+            "Course": "LAW 3543",
+            "Title": "Sports and Entertainment"
+        },
+        {
+            "Course": "LAW 3544",
+            "Title": "Forensics"
+        },
+        {
+            "Course": "LAW 3545",
+            "Title": "Housing Law"
+        }
+    ],
+            "FreeElective": false
+},"Professional & Technical Writing BS": {
+    "Core": [
+        {
+            "Course": "ENG 1133",
+            "Title": "Specialized Communications for Technology Students"
+        },
+        {
+            "Course": "ENG 1710ID",
+            "Title": "Introduction to Language & Technology"
+        },
+        {
+            "Course": "ENG 2700",
+            "Title": "Introduction to Professional & Technical Writing"
+        },
+        {
+            "Course": "ENG 2720",
+            "Title": "Writing with New Media"
+        },
+        {
+            "Course": "ENG 2730",
+            "Title": "Professional Editing & Revising"
+        },
+        {
+            "Course": "ENG 3760",
+            "Title": "Digital Storytelling"
+        },
+        {
+            "Course": "ENG 3790",
+            "Title": "Information Architecture"
+        },
+        {
+            "Course": "ENG 4900",
+            "Title": "Professional & Technical Writing Internship"
+        },
+        {
+            "Course": "LIB 1201",
+            "Title": "Research and Documentation in the Information Age"
+        },
+        {
+            "Course": "COM 3401",
+            "Title": "Business & Professional Communication"
+        },
+        {
+            "Course": "HIS 3209",
+            "Title": "Technology and History"
+        },
+        {
+            "Course": "ENG 3770",
+            "Title": "Advanced Professional Writing"
+        },
+        {
+            "Course": "ENG 3775",
+            "Title": "Advanced Technical Writing"
+        },
+        {
+            "Course": "ENG 3780",
+            "Title": "Planning & Testing User Documents"
+        },
+        {
+            "Course": "ENG 4700",
+            "Title": "Special Topics in Professional & Technical Writing"
+        },
+        {
+            "Course": "CST 3559",
+            "Title": "Technical Documentation"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FOCUS AREA ELECTIVE",
+            "Title": "Choose courses from designated focus area(s) based on interest and faculty advisement"
+        },
+        {
+            "Course": "AFR 1460",
+            "Title": "Early African History"
+        },
+        {
+            "Course": "AFR 1461",
+            "Title": "Modern African History"
+        },
+        {
+            "Course": "AFR 1465",
+            "Title": "Early African-American History"
+        },
+        {
+            "Course": "AFR 1466",
+            "Title": "Modern African-American History"
+        },
+        {
+            "Course": "HIS 1101",
+            "Title": "History of Western Civilization I"
+        },
+        {
+            "Course": "HIS 1102",
+            "Title": "Modern World 1400–1900"
+        },
+        {
+            "Course": "HIS 1103",
+            "Title": "The Modern World Since 1900"
+        },
+        {
+            "Course": "HIS 1110",
+            "Title": "U.S. History to 1865"
+        },
+        {
+            "Course": "HIS 1111",
+            "Title": "U.S. History Since 1865"
+        },
+        {
+            "Course": "HIS 1201",
+            "Title": "Contemporary Civilizations & Cultures of Asia"
+        },
+        {
+            "Course": "HIS 1204",
+            "Title": "20th Century Dress and Culture"
+        },
+        {
+            "Course": "HIS 1208",
+            "Title": "History of Immigration"
+        },
+        {
+            "Course": "HIS 1501",
+            "Title": "Islamic Civilization"
+        },
+        {
+            "Course": "HIS 1502",
+            "Title": "The Islamic Empires 1000–1800"
+        },
+        {
+            "Course": "HIS 1503",
+            "Title": "Modern Middle East & North Africa"
+        },
+        {
+            "Course": "LATS 1462",
+            "Title": "History of Puerto Rico"
+        }
+    ],
+             "FreeElective": false
+},"Radiological Science BS": {
+    "Core": [
+        {
+            "Course": "ENG 1121",
+            "Title": "English Composition II"
+        },
+        {
+            "Course": "LIB 1201",
+            "Title": "Research and Documentation in the Information Age"
+        },
+        {
+            "Course": "MAT 1375",
+            "Title": "Precalculus"
+        },
+        {
+            "Course": "PHYS 2603",
+            "Title": "Physical Principles of Medical Imaging"
+        },
+        {
+            "Course": "RAD 3527",
+            "Title": "Advanced Patient Assessment and Pharmacology"
+        },
+        {
+            "Course": "RAD 4828",
+            "Title": "Medical Informatics HIS/RIS/QM"
+        },
+        {
+            "Course": "RAD 4830",
+            "Title": "Capstone: Leadership Roles in Medical Imaging"
+        }
+    ],
+    "Electives": [
+        {
+            "Course": "FOCUS AREA ELECTIVE",
+            "Title": "Choose courses based on interests and advisement to reach 120 credits"
+        },
+        {
+            "Course": "PSY 2300",
+            "Title": "Lifespan Development"
+        },
+        {
+            "Course": "PSY 2301",
+            "Title": "Child Psychology"
+        },
+        {
+            "Course": "PSY 2301H",
+            "Title": "Child Psychology - Honors"
+        },
+        {
+            "Course": "PSY 2302",
+            "Title": "Psychology of Adolescence & Adulthood"
+        },
+        {
+            "Course": "PSY 2303",
+            "Title": "Psychology of Aging"
+        },
+        {
+            "Course": "PSY 2401",
+            "Title": "Social Psychology"
+        },
+        {
+            "Course": "PSY 2402",
+            "Title": "Psychology of Personality"
+        },
+        {
+            "Course": "PSY 2403",
+            "Title": "Abnormal Psychology"
+        },
+        {
+            "Course": "PSY 2404",
+            "Title": "Personnel and Organizational Psychology"
+        },
+        {
+            "Course": "PSY 2404ID",
+            "Title": "Personnel and Organizational Psychology - Interdisciplinary"
+        },
+        {
+            "Course": "PSY 2501",
+            "Title": "Child & Adolescent Development"
+        }
+    ],
+            "FreeElective": false
+}}
+
+
