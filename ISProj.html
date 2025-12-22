@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Tech Course Fulfillment Overview - Larger View</title>
+    <style>
+        /* --- CITY TECH BRANDING & COLOR PALETTE --- */
+        :root {
+            --ct-royal-blue: #003DA5; 
+            --ct-goldenrod: #F4AA00; 
+            --ct-teal: #007FA3; 
+            --ct-white: #ffffff;
+            --ct-dark-text: #333333; 
+            --ct-gray-subtle: #f5f5f5; 
+            --ct-border: #cccccc;
+            --ct-success-bg: #e6f7e7;
+            --ct-success-fg: #1e8449;
+            --ct-line-thick: black;
+            --ct-highlight-light: #fffacd; /* Light color for the new requirement box */
+        }
+
+        body {
+            /* 1. INCREASE BASE FONT SIZE */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px; 
+            margin: 0;
+            padding: 0;
+            background-color: var(--ct-gray-subtle);
+            color: var(--ct-dark-text);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            width: 98%; /* Increase width to fill screen better */
+            max-width: 1400px; /* Increase max width significantly */
+            background: var(--ct-white);
+            margin: 30px 0; /* Increase margin */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- LOGO BAR AND TITLE HEADER --- */
+        .page-header {
+            display: flex;
+            background-color: var(--ct-white);
+            border-bottom: 3px solid var(--ct-border);
+        }
+        
+        .logo-box {
+            background-color: var(--ct-royal-blue); 
+            color: var(--ct-white);
+            padding: 20px 25px; /* Increase padding */
+            min-width: 200px; /* Increase min width */
+            border-right: 5px solid var(--ct-goldenrod); 
+        }
+
+        .logo-text {
+            /* Increase logo font size */
+            font-size: 16px; 
+            font-weight: bold;
+            line-height: 1.1;
+            text-align: left;
+            white-space: pre;
+        }
+
+        .header-title {
+            /* 3. INCREASE HEADER TITLE FONT SIZE */
+            font-size: 32px; 
+            font-weight: 600;
+            padding: 20px 25px; 
+            display: flex;
+            align-items: center;
+            color: var(--ct-dark-text);
+        }
+
+        /* --- CONTROLS AREA --- */
+        .controls {
+            background: var(--ct-gray-subtle);
+            padding: 20px 25px; /* Increase padding */
+            display: flex;
+            flex-direction: row; 
+            gap: 30px; /* Increase gap */
+            color: var(--ct-dark-text);
+            border-bottom: 1px solid var(--ct-border);
+        }
+        
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        select {
+            /* 4. INCREASE CONTROL SIZE */
+            padding: 8px 12px;
+            font-size: 16px; 
+            border-radius: 4px;
+            min-width: 300px; /* Increase width */
+            border: 1px solid var(--ct-border);
+            background-color: var(--ct-white);
+            color: var(--ct-dark-text);
+        }
+
+        label {
+            font-weight: bold; /* Make labels bold for visibility */
+            margin-right: 5px;
+        }
+        
+        #loading {
+            font-style: italic;
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* --- TABLE STYLING --- */
+        .table-container {
+            overflow-x: auto;
+            padding: 20px 25px 0;
+        }
+
+        table {
+            /* 5. INCREASE TABLE FONT SIZE */
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 14px; 
+            border: none;
+        }
+        
+        /* Table Header Styling */
+        thead th {
+            padding: 10px 8px; /* Increase padding */
+            border: 1px solid var(--ct-border);
+            font-size: 13px; /* Header text size */
+            background-color: var(--ct-teal); 
+            color: var(--ct-white);
+            text-transform: uppercase;
+        }
+
+        /* Data Cells (td) */
+        td {
+            padding: 8px; /* Increase padding */
+            border: 1px solid var(--ct-border);
+            vertical-align: top;
+            background-color: var(--ct-white);
+            color: var(--ct-dark-text);
+        }
+        
+        /* Index Columns in Body (th) */
+        .index-col {
+            text-align: left;
+            font-weight: normal; 
+            background-color: var(--ct-white);
+            color: var(--ct-dark-text);
+            border-right: 1px solid var(--ct-border); 
+            padding: 8px; /* Match td padding */
+        }
+        
+        /* Course Code and Name Column width adjustment */
+        th.index-col:nth-child(3), /* Courses in Minor */
+        th.index-col:nth-child(4) { /* Name */
+             min-width: 120px; /* Ensure space for longer names */
+             font-weight: bold;
+        }
+        
+        /* Hyperlink styling for course code */
+        th.index-col a {
+            color: var(--ct-royal-blue);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        /* Fulfillment Cells (The 'X') */
+        td.center-text:not(:empty) {
+            background-color: var(--ct-success-bg); 
+            color: var(--ct-success-fg);
+            font-weight: bold;
+            text-align: center;
+            border: 1px dashed var(--ct-border); 
+        }
+        
+        td.center-text {
+            text-align: center;
+            border: 1px dashed var(--ct-border);
+        }
+
+        /* Row Hover */
+        tr:hover td, tr:hover th {
+            background-color: var(--ct-gray-subtle) !important; 
+        }
+
+        /* Section Breaks */
+        tr.section-break-major td, 
+        tr.section-break-major th {
+            border-top: 6px solid var(--ct-line-thick) !important; /* Slightly thicker line */
+        }
+
+        tr.section-break-minor td, 
+        tr.section-break-minor th {
+            border-top: 1px solid var(--ct-border) !important; 
+        }
+        
+        /* --- SUMMARY SECTION STYLING --- */
+        .summary-container {
+            padding: 20px 25px;
+            border-top: 3px solid var(--ct-royal-blue);
+            background-color: #eaf3ff; /* Light blue background for emphasis */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .summary-container h3 {
+            color: var(--ct-royal-blue);
+            margin-top: 0;
+            border-bottom: 2px solid var(--ct-goldenrod);
+            padding-bottom: 5px;
+        }
+        
+        .summary-container .policy-note {
+            font-style: italic; 
+            background-color: #fce8d4; 
+            padding: 10px; 
+            border-left: 5px solid var(--ct-goldenrod);
+            margin-top: 15px;
+        }
+        
+        .summary-container .warning-note {
+            font-style: italic; 
+            background-color: #f4cccc; 
+            padding: 10px; 
+            border-left: 5px solid #cc0000;
+            margin-top: 15px;
+        }
+        
+        .summary-container p {
+            /* Style applied to the text containing the bolded major/status */
+            font-size: 16px;
+        }
+        
+        .summary-container p strong {
+            /* Ensure the strong tag is clearly bold */
+            font-weight: bold;
+        }
+
+        /* New section style for general requirements */
+        .minor-requirements {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--ct-highlight-light); 
+            border: 1px solid #ffcc00;
+            border-radius: 4px;
+        }
+        
+        .minor-requirements h4 {
+            color: var(--ct-teal);
+            margin-top: 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid var(--ct-teal);
+        }
+        
+        .minor-requirements ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .minor-requirements li {
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .summary-container .disclaimer {
+            font-weight: bold;
+            text-align: center;
+            background-color: #ffe6e6; /* Very light red */
+            color: #cc0000; /* Darker red text */
+            padding: 15px;
+            border: 2px solid #ff4d4d;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="page-header">
+            <div class="logo-box">
+                <div class="logo-text">
+                    <br>
+                    CITY TECH
+                </div>
+            </div>
+            <div class="header-title">Major and Minor Course Fulfillment Overview</div>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="majorSelect">MAJOR:</label>
+                <select id="majorSelect">
+                    <option value="">Select Major...</option>
+                </select>
+                <div id="loading">Loading course catalog data...</div>
+            </div>
+            <div class="control-group">
+                <label for="minorSelect">MINOR:</label>
+                <select id="minorSelect">
+                    <option value="">Select Minor...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="curriculumTable">
+            </table>
+        </div>
+        
+        <div class="summary-container">
+            <div id="freeElectiveSummary"></div>
+        </div>
+        
+    </div>
+
+    <script>
+        // --- CONSTANTS: DATA SOURCES ---
+        const MINORS_URL = "https://raw.githubusercontent.com/RichardLin3/InfoSysProj/main/data/minors_v3.json";
+        const MAJORS_URL = "https://raw.githubusercontent.com/RichardLin3/InfoSysProj/main/data/all-majors.json";
+        const LIB_ARTS_URL = "https://raw.githubusercontent.com/RichardLin3/InfoSysProj/main/data/liberal_arts_courses.json";
+        const GENED_URL = "https://raw.githubusercontent.com/RichardLin3/InfoSysProj/main/data/gened_v2.json";
+        const ID_URL = "https://raw.githubusercontent.com/RichardLin3/InfoSysProj/main/data/ID.json";
+        
+        const DATA_URLS = [
+            { name: 'minors', url: MINORS_URL },
+            { name: 'majors', url: MAJORS_URL },
+            { name: 'libArts', url: LIB_ARTS_URL },
+            { name: 'geneds', url: GENED_URL },
+            { name: 'id', url: ID_URL }
+        ];
+
+        // FULFILLMENT_AREAS remains the same (no 'Free Elec' column)
+        const FULFILLMENT_AREAS = [
+            'Credit', 'EC', 'MQR', 'LPS', 'WCGI', 'USED', 'IS', 'CE', 'SW', 
+            'Lib Art', 'Adv Lib Art', 'ID', 'Major Core', 'Major Elec' 
+        ];
+        
+        // Headers for the index columns
+        const INDEX_HEADERS = ['Section', 'Sub Section', 'Courses in Minor', 'Name'];
+
+
+        // Global State for fetched data
+        let minorsData = {};
+        let majorsData = {};
+        let genedsData = {};
+        let libArtsData = {};
+        let idData = {}; 
+
+        const idCoursesSet = new Set();
+        
+        const cleanCourseCode = (code) => {
+            const codeString = String(code || ''); 
+            return codeString.replace(/\s+/g, ' ').trim().toUpperCase(); 
+        };
+
+        // --- Data Fetching and Dropdown Population (No change here) ---
+        
+        function showPlaceholderTable() {
+            const table = document.getElementById('curriculumTable');
+            table.innerHTML = ''; 
+            // Clear the summary entirely when nothing is selected
+            document.getElementById('freeElectiveSummary').innerHTML = ''; 
+
+            const thead = document.createElement('thead');
+            const headerRow = document.createElement('tr');
+            
+            // Render the single-row header
+            INDEX_HEADERS.forEach(h => {
+                const th = document.createElement('th');
+                th.textContent = h.replace('_', ' ');
+                th.className = 'index-header';
+                headerRow.appendChild(th);
+            });
+
+            FULFILLMENT_AREAS.forEach(h => {
+                const th = document.createElement('th');
+                th.textContent = h.replace('_', ' '); 
+                headerRow.appendChild(th);
+            });
+            
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
+            
+            const tbody = document.createElement('tbody');
+            const phRow = document.createElement('tr');
+            const totalCols = INDEX_HEADERS.length + FULFILLMENT_AREAS.length;
+            phRow.innerHTML = `<td colspan="${totalCols}" style="text-align: center; font-style: italic; border-bottom: none;">Select a Major and Minor to generate the table.</td>`;
+            tbody.appendChild(phRow);
+            table.appendChild(tbody);
+        }
+        
+        async function loadData() {
+            const loadingDiv = document.getElementById('loading');
+            
+            const fetchPromises = DATA_URLS.map(item => fetch(item.url).then(res => res.json()));
+            const results = await Promise.allSettled(fetchPromises);
+            
+            let loadedSuccessfully = true;
+
+            results.forEach((result, index) => {
+                const name = DATA_URLS[index].name;
+                
+                if (result.status === 'fulfilled') {
+                    switch (name) {
+                        case 'minors': minorsData = result.value; break;
+                        case 'majors': majorsData = result.value; break;
+                        case 'libArts': libArtsData = result.value; break;
+                        case 'geneds': genedsData = result.value; break;
+                        case 'id': idData = result.value; break;
+                    }
+                } else {
+                    console.error(`🔴 Error loading ${name} data:`, result.reason);
+                    loadedSuccessfully = false;
+                }
+            });
+            
+            if (Array.isArray(idData)) {
+                idData.forEach(courseCode => idCoursesSet.add(cleanCourseCode(courseCode)));
+            }
+
+            if (loadedSuccessfully) {
+                populateDropdowns();
+                loadingDiv.textContent = 'Data loaded successfully.'; // Update on success
+                // Optionally remove or hide after a delay: setTimeout(() => loadingDiv.style.display = 'none', 2000);
+            } else {
+                loadingDiv.textContent = `Error loading data.`;
+            }
+            
+            showPlaceholderTable();
+        }
+
+        function populateDropdowns() {
+            const majorSelect = document.getElementById('majorSelect');
+            const minorSelect = document.getElementById('minorSelect');
+
+            Object.keys(majorsData).sort().forEach(key => {
+                const opt = document.createElement('option');
+                opt.value = key;
+                opt.textContent = key;
+                majorSelect.appendChild(opt);
+            });
+
+            Object.keys(minorsData).sort().forEach(key => {
+                const opt = document.createElement('option');
+                opt.value = key;
+                opt.textContent = key;
+                minorSelect.appendChild(opt);
+            });
+        }
+        
+        // --- Core Logic: Building the Fulfillment Map (No change) ---
+        function buildFulfillmentMap(majorData, genedData, libArtsData) {
+            const map = {}; 
+            
+            const addFulfillment = (courseCode, area) => {
+                const cleanCode = cleanCourseCode(courseCode); 
+                if (!cleanCode) return;
+                
+                if (!map[cleanCode]) {
+                    map[cleanCode] = [];
+                }
+                
+                let areasToAdd = Array.isArray(area) ? area : [area];
+
+                areasToAdd.forEach(a => {
+                    if (a && typeof a === 'string' && !map[cleanCode].includes(a.trim())) {
+                        map[cleanCode].push(a.trim());
+                    }
+                });
+            };
+
+            let genedsObject = genedData;
+            if (genedData && typeof genedData === 'object' && genedData.gened) {
+                genedsObject = genedData.gened;
+            } else if (!genedData || typeof genedData !== 'object') {
+                 genedsObject = {}; 
+            }
+
+            if (genedsObject && typeof genedsObject === 'object') {
+                for (const sectionKey in genedsObject) {
+                    const courseArray = genedsObject[sectionKey];
+                    
+                    if (Array.isArray(courseArray)) {
+                        courseArray.forEach(item => {
+                            const courseCode = item.Course || item.course;
+                            let areas = item["Area(s)"] || item.Area || item.Areas; 
+                            
+                            if (courseCode && areas) {
+                                if (typeof areas === 'string') {
+                                    areas = areas.split(',').map(a => a.trim());
+                                }
+
+                                addFulfillment(courseCode, areas); 
+                            }
+                        });
+                    }
+                }
+            }
+
+            // Liberal Arts Data
+            if (libArtsData && typeof libArtsData === 'object') {
+                const libArtsList = libArtsData.liberal_arts || libArtsData.Liberal_Arts || libArtsData["Lib Art"];
+                if (Array.isArray(libArtsList)) {
+                    libArtsList.forEach(item => {
+                        const courseCode = item.Course || item.course;
+                        if (courseCode) {
+                            addFulfillment(courseCode, 'Lib Art');
+                        }
+                    });
+                }
+                
+                const advLibArtsList = libArtsData.advanced_liberal_arts || libArtsData.Advanced_Liberal_Arts || libArtsData["Adv Lib Art"];
+                if (Array.isArray(advLibArtsList)) {
+                    advLibArtsList.forEach(item => {
+                           const courseCode = item.Course || item.course;
+                           if (courseCode) {
+                                addFulfillment(courseCode, 'Lib Art');
+                                addFulfillment(courseCode, 'Adv Lib Art');
+                           }
+                    });
+                }
+            }
+
+            // Process Major JSON
+            function traverseMajor(obj) {
+                for (let key in obj) {
+                    const normalizedKey = key.toLowerCase().replace(/[^a-z0-9]/g, '');
+                    const val = obj[key];
+                    let matchedArea = null;
+
+                    if (normalizedKey.includes('core')) {
+                        matchedArea = 'Major Core'; 
+                    } else if (normalizedKey.includes('elective')) {
+                        matchedArea = 'Major Elec'; 
+                    }
+                    
+                    if (matchedArea && Array.isArray(val)) {
+                        val.forEach(item => {
+                            let courseCode = '';
+                            if (typeof item === 'string') courseCode = item; 
+                            else if (typeof item === 'object' && item.Course) courseCode = item.Course;
+                            else if (typeof item === 'object' && item.course) courseCode = item.course;
+
+                            if (courseCode) {
+                                addFulfillment(courseCode, matchedArea);
+                            }
+                        });
+                    } 
+                    
+                    if (typeof val === 'object' && val !== null) {
+                        traverseMajor(val);
+                    }
+                }
+            }
+            if (majorData) traverseMajor(majorData);
+
+            return map;
+        }
+
+        // --- Utility Functions (Credit Lookup & Injection) ---
+        function formatCredit(min, max) {
+            return min === max ? `${max}` : `${min}-${max}`;
+        }
+        
+        function getCreditInfo(dataItem) {
+            let info = dataItem.Credit || dataItem.credit;
+            if (info) return info;
+
+            for (const key in dataItem) {
+                if (key.toLowerCase().includes('credit')) {
+                    const val = dataItem[key];
+                    if (typeof val === 'object' && val !== null && 'Min' in val && 'Max' in val) {
+                        return val;
+                    }
+                }
+            }
+            return { Min: 3, Max: 3 }; // Fallback
+        }
+        
+        function injectDefaultCredits(data, defaultCredit = 3) {
+            if (typeof data === 'object' && data !== null) {
+                if (Array.isArray(data)) {
+                    data.forEach((item, i) => {
+                        data[i] = injectDefaultCredits(item, defaultCredit);
+                    });
+                } else {
+                    if (data.Course && !data.Credit && !data.credit) {
+                        data.Credit = { Min: defaultCredit, Max: defaultCredit };
+                    }
+                    for (const key in data) {
+                        data[key] = injectDefaultCredits(data[key], defaultCredit);
+                    }
+                }
+            }
+            return data;
+        }
+
+        function getMinorTotalCredits(rows) {
+             let totalCredits = 0;
+             rows.forEach(row => {
+                 // The 'Credit' field is a string like "3" or "3-4". We take the first number.
+                 const creditMatch = row.Credit.match(/(\d+)/); 
+                 const credits = creditMatch ? parseInt(creditMatch[1]) : 0;
+                 totalCredits += credits;
+             });
+             return totalCredits;
+         }
+
+        // --- Data Processing (Generating the rows for the Minor) ---
+        function processCurriculum(minorName, minorData, fulfillmentMap) {
+            // Apply default credit injection to minor data before processing
+            minorData = injectDefaultCredits(minorData, 3);
+            
+            const processedList = [];
+            const idRegex = /\d+ID$/; 
+
+            const addRow = (section, subSection, courseCode, courseTitle, itemData) => {
+                const creditInfo = getCreditInfo(itemData);
+                const creditStr = formatCredit(creditInfo.Min, creditInfo.Max);
+                
+                const row = {
+                    Section: section,
+                    'Sub Section': subSection,
+                    'Courses in Minor': courseCode,
+                    Name: courseTitle || '',
+                    Credit: creditStr,
+                    // Read the URL/Website property from the item data
+                    URL: itemData.Website || itemData.URL || itemData.url || null 
+                };
+
+                const cleanCode = cleanCourseCode(courseCode); 
+                const fulfilledAreas = fulfillmentMap[cleanCode] || [];
+                
+                let finalFulfilledAreas = [...fulfilledAreas];
+
+                // ID CHECK 
+                if (idCoursesSet.has(cleanCode) || idRegex.test(cleanCode)) {
+                    if (!finalFulfilledAreas.includes('ID')) {
+                        finalFulfilledAreas.push('ID');
+                    }
+                }
+                
+                // Fulfillment logic (populating 'X' or '')
+                FULFILLMENT_AREAS.forEach(area => {
+                    if (area === 'Credit') {
+                        // Handled above in row.Credit
+                    } else {
+                        row[area] = finalFulfilledAreas.includes(area) ? 'X' : '';
+                    }
+                });
+
+                processedList.push(row);
+            };
+
+            // Recursive helper for electives to handle nested groups
+            const processElectiveGroup = (items, currentSubSection) => {
+                 (items || []).forEach(item => {
+                    if (item.Course) {
+                        addRow(`2. ${minorName} Elective Courses`, currentSubSection, item.Course, item.Title, item);
+                    } else if (item.group) {
+                        const minReq = item.min_required;
+                        let subName = item.group;
+                        if (minReq !== undefined && minReq > 0) {
+                            subName = `${item.group} (Must Choose ${minReq})`;
+                        }
+                        const nextSubSection = `Conditional Elective: ${subName}`;
+                        
+                        // Handle nested courses/groups
+                        if (item.courses) {
+                            processElectiveGroup(item.courses, nextSubSection);
+                        }
+                    }
+                });
+            };
+
+
+            /* --- 1. CORE Courses --- */
+            const coreSection = minorData.Core || [];
+            const coreSectionName = `1. ${minorName} Core Requirements (Mandatory)`;
+
+            coreSection.forEach(item => {
+                if (item.Course) {
+                    addRow(coreSectionName, 'A. Mandatory Core Courses', item.Course, item.Title, item);
+                } else if (item.group) {
+                    const subName = `Conditional Core: ${item.group}`;
+                    (item.courses || []).forEach(c => {
+                        addRow(coreSectionName, subName, c.Course, c.Title, c);
+                    });
+                }
+            });
+
+            /* --- 2. ELECTIVE Courses --- */
+            const electiveSection = minorData.Electives || [];
+            
+            // First pass to find direct courses or top-level groups
+            electiveSection.forEach(item => {
+                if (item.Course) {
+                    addRow(`2. ${minorName} Elective Courses`, 'A. General Electives List', item.Course, item.Title, item);
+                } else if (item.group) {
+                    const minReq = item.min_required;
+                    let subName = item.group;
+                    if (minReq !== undefined && minReq > 0) {
+                        subName = `${item.group} (Must Choose ${minReq})`;
+                    }
+                    const subSection = `Conditional Elective: ${subName}`;
+                    
+                    // Call recursive helper for nested items
+                    processElectiveGroup(item.courses, subSection);
+                }
+            });
+
+            return processedList;
+        }
+
+        // --- Table Rendering (Updated to handle empty columns) ---
+        function renderTable(rows, majorName, minorName) {
+            const table = document.getElementById('curriculumTable');
+            table.innerHTML = ''; 
+
+            const tableRows = rows.filter(row => FULFILLMENT_AREAS.some(area => row[area] !== undefined));
+            
+            if (tableRows.length === 0) {
+                const totalCols = INDEX_HEADERS.length + FULFILLMENT_AREAS.length;
+                table.innerHTML = `<tr><td colspan="${totalCols}" style="text-align: center; border-bottom: none;">No course data found for the selected Minor.</td></tr>`;
+                return;
+            }
+            
+            // STEP 1: Determine which fulfillment columns are NOT empty (i.e., contain an 'X' in at least one row)
+            const nonEmptyFulfillmentAreas = FULFILLMENT_AREAS.filter(area => {
+                if (area === 'Credit') {
+                    // Always include 'Credit' column
+                    return true;
+                }
+                // Check if any row has an 'X' for this area
+                return rows.some(row => row[area] === 'X');
+            });
+            
+            // The total number of columns to render
+            const totalColsToRender = INDEX_HEADERS.length + nonEmptyFulfillmentAreas.length;
+
+
+            const thead = document.createElement('thead');
+            const headerRow = document.createElement('tr');
+            
+            // 1. INDEX HEADERS (Always rendered)
+            INDEX_HEADERS.forEach(h => {
+                const th = document.createElement('th');
+                th.textContent = h.replace('_', ' ');
+                th.className = 'index-header';
+                th.style.textAlign = 'left';
+                headerRow.appendChild(th);
+            });
+
+            // 2. FULFILLMENT HEADERS (Only render non-empty ones)
+            nonEmptyFulfillmentAreas.forEach(h => {
+                const th = document.createElement('th');
+                th.textContent = h.replace('_', ' '); 
+                th.style.textAlign = 'center';
+                headerRow.appendChild(th);
+            });
+            
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
+            
+            // --- TABLE BODY ---
+            const tbody = document.createElement('tbody');
+            const spans = { Section: [], 'Sub Section': [] };
+
+            // Calculate Rowspans (Logic unchanged)
+            for (let i = 0; i < tableRows.length; i++) {
+                // Section Span
+                if (i > 0 && tableRows[i].Section === tableRows[i-1].Section) { spans.Section.push(0); } 
+                else {
+                    let count = 1;
+                    for (let j = i + 1; j < tableRows.length; j++) { if (tableRows[j].Section === tableRows[i].Section) count++; else break; }
+                    spans.Section.push(count);
+                }
+                // Sub-Section Span
+                if (i > 0 && tableRows[i]['Sub Section'] === tableRows[i-1]['Sub Section'] && tableRows[i].Section === tableRows[i-1].Section) { spans['Sub Section'].push(0); } 
+                else {
+                    let count = 1;
+                    for (let j = i + 1; j < tableRows.length; j++) { if (tableRows[j]['Sub Section'] === tableRows[i]['Sub Section'] && tableRows[j].Section === tableRows[i].Section) count++; else break; }
+                    spans['Sub Section'].push(count);
+                }
+            }
+
+            tableRows.forEach((row, i) => {
+                const tr = document.createElement('tr');
+
+                if (i > 0 && tableRows[i].Section !== tableRows[i-1].Section) { tr.classList.add('section-break-major'); } 
+                else if (i > 0 && tableRows[i]['Sub Section'] !== tableRows[i-1]['Sub Section']) { tr.classList.add('section-break-minor'); }
+
+                // 1. Section
+                if (spans.Section[i] > 0) {
+                    const th = document.createElement('th'); th.textContent = row.Section; th.rowSpan = spans.Section[i]; th.className = 'index-col'; tr.appendChild(th);
+                }
+
+                // 2. Sub-Section
+                if (spans['Sub Section'][i] > 0) {
+                     const th = document.createElement('th'); th.textContent = row['Sub Section']; th.rowSpan = spans['Sub Section'][i]; th.className = 'index-col'; tr.appendChild(th);
+                }
+                
+                // 3. Courses in Minor (Course Code) - HYPERLINK
+                const thCourse = document.createElement('th'); 
+                thCourse.className = 'index-col'; 
+                
+                if (row.URL) {
+                    const link = document.createElement('a');
+                    link.href = row.URL;
+                    link.textContent = row['Courses in Minor'];
+                    link.target = '_blank'; // Open link in new tab
+                    thCourse.appendChild(link);
+                } else {
+                    thCourse.textContent = row['Courses in Minor'];
+                }
+                tr.appendChild(thCourse);
+                
+                // 4. Name (Course Name)
+                const thName = document.createElement('th'); thName.className = 'index-col'; thName.textContent = row.Name; tr.appendChild(thName);
+
+                // 5. FULFILLMENT AREAS (Only render non-empty ones)
+                nonEmptyFulfillmentAreas.forEach(key => {
+                    const td = document.createElement('td'); 
+                    td.textContent = row[key]; 
+                    td.className = 'center-text'; 
+                    tr.appendChild(td);
+                });
+
+                tbody.appendChild(tr);
+            });
+
+            table.appendChild(tbody);
+        }
+        
+        // --- Summary and Disclaimer Rendering (Updated with Minor Requirements) ---
+        function renderFreeElectiveSummary(majorPolicy, minorCredits, minorName, minorData) {
+            let summaryHtml = '';
+            
+            // --- 1. MAJOR FREE ELECTIVE POLICY SECTION ---
+            if (majorPolicy.FreeElective) {
+                const policyNote = majorPolicy.FreeElectiveNote || "No specific note provided. The minor's credits typically contribute to the Major's total degree credit requirement.";
+                
+                summaryHtml += `
+                    <h3>📝 Free Elective Policy for ${majorPolicy.majorName}</h3>
+                    <p>The <strong>${majorPolicy.majorName} Major</strong> includes a <strong>Free Elective</strong> component.</p>
+                    <div class="policy-note">
+                        <strong>Major Free Elective Policy:</strong> ${policyNote}
+                    </div>
+                    <p>This means the credits from the <strong>${minorName} Minor</strong> will count towards fulfilling the Major's overall credit requirements, assuming they do not overlap with other core Major/Gen Ed requirements.</p>
+                `;
+            } else {
+                summaryHtml += `
+                    <h3>📝 Free Elective Policy for ${majorPolicy.majorName}</h3>
+                    <p>The <span style="font-weight: bold;">${majorPolicy.majorName} Major</span> currently <span style="font-weight: bold;">does not</span> utilize a general Free Elective credit pool. </p>
+                    <div class="warning-note">
+                        <strong>Important:</strong> The Minor's credits must fulfill explicit Major Core, Major Elective, or General Education requirements (as checked in the table above). Credits not shown as fulfilled will result in excess, non-degree-contributing credits.
+                    </div>
+                `;
+            }
+            
+            // --- 2. GENERAL MINOR REQUIREMENTS SECTION (NEW - DYNAMICALLY POPULATED) ---
+            
+            const minorRequirements = [
+                { key: 'ResidenceCityTech', label: 'Residence Requirement' },
+                { key: 'CompletionRequirement', label: 'Completion Grade Requirement' },
+                { key: 'CreditRequirement', label: 'Minimum Credit Requirement' },
+                { key: 'Notes', label: 'Additional Notes' }
+            ];
+            
+            let requirementsHtml = '<ul>';
+            let hasRequirements = false;
+            
+            minorRequirements.forEach(req => {
+                const detail = minorData[req.key];
+                if (detail && typeof detail === 'string' && detail.trim() !== "") {
+                    requirementsHtml += `<li><strong>${req.label}:</strong> ${detail}</li>`;
+                    hasRequirements = true;
+                }
+            });
+            requirementsHtml += '</ul>';
+            
+            if (hasRequirements) {
+                summaryHtml += `
+                    <div class="minor-requirements">
+                        <h4>General Minor Completion Requirements for ${minorName}</h4>
+                        ${requirementsHtml}
+                    </div>
+                `;
+            }
+
+
+            // --- 3. DISCLAIMER SECTION ---
+            summaryHtml += `
+                <div class="disclaimer">
+                    Disclaimer: ID course and its non-ID counterpart cannot be treated as two separate courses
+                </div>
+            `;
+            
+            document.getElementById('freeElectiveSummary').innerHTML = summaryHtml;
+        }
+
+        
+        // --- Event Handlers and Init ---
+        function handleSelectionChange() {
+            const majorKey = document.getElementById('majorSelect').value;
+            const minorName = document.getElementById('minorSelect').value;
+            
+            // Clear summary when selections change
+            document.getElementById('freeElectiveSummary').innerHTML = '';
+
+            if (majorKey && minorName) {
+                const currentMinorData = minorsData[minorName]; // Retain minor data here
+                const currentMajorData = majorsData[majorKey];
+
+                if (currentMinorData && currentMajorData) {
+                    const fulfillmentMap = buildFulfillmentMap(
+                        currentMajorData,
+                        genedsData,
+                        libArtsData
+                    );
+                    
+                    const processedRows = processCurriculum(minorName, currentMinorData, fulfillmentMap);
+                    renderTable(processedRows, majorKey, minorName);
+                    
+                    // Extract the new policy data from the Major JSON
+                    const majorPolicy = {
+                         majorName: majorKey,
+                         // Ensure it's explicitly true for triggering the policy display
+                         FreeElective: currentMajorData.FreeElective === true, 
+                         FreeElectiveNote: currentMajorData.FreeElectiveNote,
+                    };
+
+                    const minorCredits = getMinorTotalCredits(processedRows);
+                    
+                    // PASS THE MINOR DATA TO THE SUMMARY FUNCTION
+                    renderFreeElectiveSummary(majorPolicy, minorCredits, minorName, currentMinorData); 
+                }
+            } else {
+                showPlaceholderTable();
+            }
+        }
+
+        document.getElementById('majorSelect').addEventListener('change', handleSelectionChange);
+        document.getElementById('minorSelect').addEventListener('change', handleSelectionChange);
+
+        loadData();
+    </script>
+</body>
+</html>
