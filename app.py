@@ -283,12 +283,7 @@ def main():
                 .set_table_styles(apply_section_borders(final_df.style), overwrite=False)
                 .set_table_styles([
                     {'selector': 'caption', 'props': [('font-size', '20px'), ('font-weight', 'bold'), ('margin-bottom', '10px')]},
-                    {'selector': 'th.col_heading', 'props': [('text-align', 'center'), ('padding', '8px'), ('background-color', '#f0f2f6')]},
-                    # FIX: Added ('color', '#000000') to force black text on the light gray background
                     {'selector': 'th.col_heading', 'props': [('text-align', 'center'), ('padding', '8px'), ('background-color', '#f0f2f6'), ('color', '#000000')]},
-                    #{'selector': 'th.row_heading', 'props': [('vertical-align', 'top'), ('text-align', 'left'), ('padding', '8px'), ('border-bottom', '1px solid #999999 !important')]},
-                    # FIX: Added explicit text color for row headings as well
-                    #{'selector': 'th.row_heading', 'props': [('vertical-align', 'top'), ('text-align', 'left'), ('padding', '8px'), ('border-bottom', '1px solid #999999 !important'), ('color', '#000000')]},
                     {'selector': 'td', 'props': [('text-align', 'center')]},
                     {'selector': 'tr:hover th', 'props': [('background-color', '#e0e0e0 !important'), ('color', '#333333 !important')]},
                     {'selector': 'tr:hover td', 'props': [('background-color', '#eeeeee !important'), ('color', '#000000 !important')]}
