@@ -289,9 +289,9 @@ def main():
                     {'selector': 'th.row_heading', 'props': [('vertical-align', 'top'), ('text-align', 'left'), ('padding', '8px'), ('border-bottom', '1px solid #999999 !important')]},
                     # FIX: Added explicit text color for row headings as well
                     #{'selector': 'th.row_heading', 'props': [('vertical-align', 'top'), ('text-align', 'left'), ('padding', '8px'), ('border-bottom', '1px solid #999999 !important'), ('color', '#000000')]},
-                    {'selector': 'td', 'props': [('text-align', 'center')]},
+                    #{'selector': 'td', 'props': [('text-align', 'center')]},
                     # FIX: Added explicit text color for data cells so they remain readable in dark mode
-                    #{'selector': 'td', 'props': [('text-align', 'center'), ('color', '#000000')]},
+                    {'selector': 'td', 'props': [('text-align', 'center'), ('color', '#000000')]},
                     {'selector': 'tr:hover th', 'props': [('background-color', '#e0e0e0 !important'), ('color', '#333333 !important')]},
                     {'selector': 'tr:hover td', 'props': [('background-color', '#eeeeee !important'), ('color', '#000000 !important')]}
                 ])
